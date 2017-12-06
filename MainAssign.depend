@@ -53,3 +53,43 @@
 1512566627 source:c:\users\viðar\mainassign\src\service\menuservice.cpp
 	"MenuService.h"
 
+1512484359 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\main.cpp
+	<iostream>
+	"LoginUI.h"
+
+1512564157 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\ui\loginui.h
+	<string>
+	<iostream>
+	<cstdlib>
+	"AlphaLoginUI.h"
+
+1512566156 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\ui\alphaloginui.h
+	<iostream>
+	<string>
+	<cstdlib>
+	"MenuService.h"
+	"ToppingService.h"
+
+1512571136 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\menuservice.h
+	<iostream>
+	<string>
+	"Pizza.h"
+
+1512566156 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\toppingservice.h
+
+1512566156 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\toppingservice.cpp
+	"ToppingService.h"
+
+1512564157 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\loginui.cpp
+	"LoginUI.h"
+
+1512571118 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizza.h
+	<string>
+	<iostream>
+
+1512571118 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
+	"Pizza.h"
+
+1512571118 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
+	"AlphaLoginUI.h"
+

@@ -2,6 +2,7 @@
 #define MENUSERVICE_H
 #include <iostream>
 #include <string>
+#include "Pizza.h"
 
 using namespace std;
 
@@ -12,6 +13,9 @@ class MenuService
         void addPizza();
         void editMenu();
     private:
+        string name;
+        string topping;
+        int price;
 };
 
 #endif // MENUSERVICE_H

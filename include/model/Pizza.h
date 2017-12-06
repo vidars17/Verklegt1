@@ -9,7 +9,7 @@ using namespace std;
 class Pizza
 {
     public:
-        Pizza();
+        Pizza(string name, string topping, int price);
 
     private:
         string name;
