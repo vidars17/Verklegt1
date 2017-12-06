@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1512484359 source:c:\users\viðar\favorites\desktop\mainassign\main.cpp
+	<iostream>
+	"LoginUI.h"
+
+1512488185 c:\users\viðar\favorites\desktop\mainassign\include\ui\loginui.h
+	<string>
+	<iostream>
+	"AlphaLoginUI.h"
+
+1512488107 c:\users\viðar\favorites\desktop\mainassign\include\ui\alphaloginui.h
+	"LoginUI.h"
+
+1512484359 source:c:\users\viðar\mainassign\main.cpp
+	<iostream>
+	"LoginUI.h"
+
+1512564157 c:\users\viðar\mainassign\include\ui\loginui.h
+	<string>
+	<iostream>
+	<cstdlib>
+	"AlphaLoginUI.h"
+
+1512566156 c:\users\viðar\mainassign\include\ui\alphaloginui.h
+	<iostream>
+	<string>
+	<cstdlib>
+	"MenuService.h"
+	"ToppingService.h"
+
+1512564157 source:c:\users\viðar\mainassign\src\ui\loginui.cpp
+	"LoginUI.h"
+
+1512566156 source:c:\users\viðar\mainassign\src\ui\alphaloginui.cpp
+	"AlphaLoginUI.h"
+
+1512566156 c:\users\viðar\mainassign\include\service\menuservice.h
+	<iostream>
+	<string>
+
+1512566156 c:\users\viðar\mainassign\include\service\toppingservice.h
+
+1512566156 source:c:\users\viðar\mainassign\src\service\toppingservice.cpp
+	"ToppingService.h"
+
+1512566722 source:c:\users\viðar\mainassign\src\model\pizza.cpp
+	"Pizza.h"
+
+1512566714 c:\users\viðar\mainassign\include\model\pizza.h
+	<string>
+	<iostream>
+
+1512566627 source:c:\users\viðar\mainassign\src\service\menuservice.cpp
+	"MenuService.h"
+
