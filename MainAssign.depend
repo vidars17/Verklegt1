@@ -104,3 +104,51 @@
 1512580049 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\pizzamenurepo.cpp
 	"PizzaMenuRepo.h"
 
+1512580401 source:c:\users\bjössman\desktop\gitrep\verklegt1-master\main.cpp
+	<iostream>
+	"LoginUI.h"
+
+1512580401 c:\users\bjössman\desktop\gitrep\verklegt1-master\include\ui\loginui.h
+	<string>
+	<iostream>
+	<cstdlib>
+	"AlphaLoginUI.h"
+
+1512580401 c:\users\bjössman\desktop\gitrep\verklegt1-master\include\ui\alphaloginui.h
+	<iostream>
+	<string>
+	<cstdlib>
+	"MenuService.h"
+	"ToppingService.h"
+
+1512580401 c:\users\bjössman\desktop\gitrep\verklegt1-master\include\service\menuservice.h
+	<iostream>
+	<string>
+	"PizzaMenuRepo.h"
+
+1512580401 c:\users\bjössman\desktop\gitrep\verklegt1-master\include\repo\pizzamenurepo.h
+	<iostream>
+	<fstream>
+	"Pizza.h"
+
+1512580401 c:\users\bjössman\desktop\gitrep\verklegt1-master\include\model\pizza.h
+	<string>
+	<iostream>
+
+1512580401 c:\users\bjössman\desktop\gitrep\verklegt1-master\include\service\toppingservice.h
+
+1512580401 source:c:\users\bjössman\desktop\gitrep\verklegt1-master\src\model\pizza.cpp
+	"Pizza.h"
+
+1512580401 source:c:\users\bjössman\desktop\gitrep\verklegt1-master\src\repo\pizzamenurepo.cpp
+	"PizzaMenuRepo.h"
+
+1512580401 source:c:\users\bjössman\desktop\gitrep\verklegt1-master\src\service\toppingservice.cpp
+	"ToppingService.h"
+
+1512580401 source:c:\users\bjössman\desktop\gitrep\verklegt1-master\src\ui\alphaloginui.cpp
+	"AlphaLoginUI.h"
+
+1512580401 source:c:\users\bjössman\desktop\gitrep\verklegt1-master\src\ui\loginui.cpp
+	"LoginUI.h"
+
