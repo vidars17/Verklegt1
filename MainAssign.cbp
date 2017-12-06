@@ -16,6 +16,7 @@
 					<Add directory="include/ui" />
 					<Add directory="include/service" />
 					<Add directory="include/model" />
+					<Add directory="include/repo" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -28,6 +29,7 @@
 					<Add directory="include/ui" />
 					<Add directory="include/service" />
 					<Add directory="include/model" />
+					<Add directory="include/repo" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -39,12 +41,14 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/model/Pizza.h" />
+		<Unit filename="include/repo/PizzaMenuRepo.h" />
 		<Unit filename="include/service/MenuService.h" />
 		<Unit filename="include/service/ToppingService.h" />
 		<Unit filename="include/ui/AlphaLoginUI.h" />
 		<Unit filename="include/ui/LoginUI.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/model/Pizza.cpp" />
+		<Unit filename="src/repo/PizzaMenuRepo.cpp" />
 		<Unit filename="src/service/MenuService.cpp" />
 		<Unit filename="src/service/ToppingService.cpp" />
 		<Unit filename="src/ui/AlphaLoginUI.cpp" />

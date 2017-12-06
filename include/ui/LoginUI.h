@@ -16,12 +16,12 @@ class LoginUI
         AlphaLoginUI alphaLoginUI;
         void checkLogin(string input);
         string input;
-        string alpha = "alpha"; ///Compiler warning (warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11)
+        string alpha;
         string manager;
         string sales;
         string baker;
         string delivery;
-        string quit = "quit";
+        string quit;
 };
 
 #endif // LOGINUI_H

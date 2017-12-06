@@ -11,6 +11,7 @@ void MenuService::addPizza() {
     cin >> price;
 
     Pizza pizza(name, topping, price);
+    pizzarepo.pizzaOut(pizza);
 }
 
 void MenuService::editMenu() {

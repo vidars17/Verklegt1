@@ -6,6 +6,7 @@ AlphaLoginUI::AlphaLoginUI(){
 
 void AlphaLoginUI::alphaMenu() {
     while(true){
+        ///system("cls");
         cout << "Alpha User welcome!" << endl << "Please choose a task." << endl << "*********************" << endl << endl;
         cout << "1: Edit price on menu" << endl << "2: Edit toppings and prices" << endl;
         cout << "3: Add order" << endl << "4: Mark paid" << endl << "5: Get a pizza order" << endl;
@@ -18,7 +19,8 @@ void AlphaLoginUI::alphaMenu() {
 
 void AlphaLoginUI::checkInput(char input) {
     if(input == '1'){
-        menuService.editMenu();
+        menuService.addPizza();
+        ///menuService.editMenu();
     }
     else if(input == '2'){
         toppingService.editTopping();
