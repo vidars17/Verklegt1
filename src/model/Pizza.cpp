@@ -1,9 +1,9 @@
 #include "Pizza.h"
 
-Pizza::Pizza(string name, string topping, int price) {
-    this->name = name;
-    this->topping = topping;
-    this->price = price;
+Pizza::Pizza() {
+    setName();
+    setTopping();
+    setPrice();
 }
 
 string Pizza::getName() const{
@@ -18,14 +18,20 @@ int Pizza::getPrice() const{
     return price;
 }
 
-void Pizza::setName(string name) {
+void Pizza::setName() {
+    string name;
+    cin >> name;
     this->name = name;
 }
 
-void Pizza::setTopping(string topping) {
+void Pizza::setTopping() {
+    string topping;
+    cin >> topping;
     this->topping = topping;
 }
 
-void Pizza::setPrice(int price) {
+void Pizza::setPrice() {
+    int price;
+    cin >> price;
     this->price = price;
 }

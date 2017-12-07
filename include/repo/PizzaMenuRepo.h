@@ -12,7 +12,9 @@ class PizzaMenuRepo
         PizzaMenuRepo();
         void addToRepo(Pizza& pizza);
         void seePizza(char tag);
-        void pizzaOut(Pizza pizza);
+        void pizzaOut(Pizza& pizza);
+        void pizzaIn();
+
         friend ostream& operator <<(ostream& out, const Pizza& pizza);
         friend istream& operator >>(istream& in, Pizza& pizza);
     private:

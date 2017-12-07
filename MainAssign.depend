@@ -70,7 +70,7 @@
 	"MenuService.h"
 	"ToppingService.h"
 
-1512579893 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\menuservice.h
+1512654138 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\menuservice.h
 	<iostream>
 	<string>
 	"PizzaMenuRepo.h"
@@ -83,25 +83,25 @@
 1512577597 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\loginui.cpp
 	"LoginUI.h"
 
-1512579683 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizza.h
+1512649886 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizza.h
 	<string>
 	<iostream>
 
-1512579683 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
+1512650847 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
 	"Pizza.h"
 
-1512571118 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
+1512580288 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
 	"AlphaLoginUI.h"
 
-1512580063 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\menuservice.cpp
+1512648244 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\menuservice.cpp
 	"MenuService.h"
 
-1512580049 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\repo\pizzamenurepo.h
+1512654138 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\repo\pizzamenurepo.h
 	<iostream>
 	<fstream>
 	"Pizza.h"
 
-1512580049 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\pizzamenurepo.cpp
+1512650723 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\pizzamenurepo.cpp
 	"PizzaMenuRepo.h"
 
 1512580401 source:c:\users\bjössman\desktop\gitrep\verklegt1-master\main.cpp

@@ -9,15 +9,15 @@ using namespace std;
 class Pizza
 {
     public:
-        Pizza(string name, string topping, int price);
+        Pizza();
 
         string getName() const;
         string getTopping() const;
         int getPrice() const;
 
-        void setName(string name);
-        void setTopping(string topping);
-        void setPrice(int price);
+        void setName();
+        void setTopping();
+        void setPrice();
 
     private:
         string name;
