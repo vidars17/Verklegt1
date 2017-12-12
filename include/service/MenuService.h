@@ -11,7 +11,7 @@ class MenuService
     public:
         MenuService();
         void addPizza();
-        void editMenu();
+        void addTopping();
     private:
         string name;
         string topping;

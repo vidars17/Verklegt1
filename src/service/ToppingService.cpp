@@ -1,10 +1,12 @@
 #include "ToppingService.h"
 
-ToppingService::ToppingService()
-{
-    //ctor
-}
-
-void ToppingService::editTopping() {
+void ToppingService::addTopping(Topping topping) {
+    char answer;
+    do{
+        ToppingRepo topping;
+        topping.makeTopping(topping)
+        cout << "Do you want to add another topping?(y/n)";
+        cin >> answer;
+    } while (answer == 'y');
 
 }

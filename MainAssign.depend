@@ -70,30 +70,31 @@
 	"MenuService.h"
 	"ToppingService.h"
 
-1512654138 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\menuservice.h
+1513079670 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\menuservice.h
 	<iostream>
 	<string>
 	"PizzaMenuRepo.h"
 
-1512566156 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\toppingservice.h
+1513089088 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\toppingservice.h
+	"Topping.h"
 
 1512566156 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\toppingservice.cpp
 	"ToppingService.h"
 
-1512577597 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\loginui.cpp
+1513081453 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\loginui.cpp
 	"LoginUI.h"
 
-1512649886 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizza.h
+1513079670 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizza.h
 	<string>
 	<iostream>
 
 1512650847 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
 	"Pizza.h"
 
-1512580288 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
+1513079932 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
 	"AlphaLoginUI.h"
 
-1512648244 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\menuservice.cpp
+1513079670 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\menuservice.cpp
 	"MenuService.h"
 
 1512654138 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\repo\pizzamenurepo.h
@@ -101,7 +102,7 @@
 	<fstream>
 	"Pizza.h"
 
-1512650723 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\pizzamenurepo.cpp
+1513079738 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\pizzamenurepo.cpp
 	"PizzaMenuRepo.h"
 
 1512580401 source:c:\users\bjössman\desktop\gitrep\verklegt1-master\main.cpp
@@ -151,4 +152,12 @@
 
 1512580401 source:c:\users\bjössman\desktop\gitrep\verklegt1-master\src\ui\loginui.cpp
 	"LoginUI.h"
+
+1513086974 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\topping.cpp
+	"Topping.h"
+	<strings.h>
+	<fstream>
+
+1513086974 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\topping.h
+	<iostream>
 

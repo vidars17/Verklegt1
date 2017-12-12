@@ -20,10 +20,9 @@ void AlphaLoginUI::alphaMenu() {
 void AlphaLoginUI::checkInput(char input) {
     if(input == '1'){
         menuService.addPizza();
-        ///menuService.editMenu();
     }
     else if(input == '2'){
-        toppingService.editTopping();
+        ///toppingService.addTopping();
     }
     else if(input == '3'){
 

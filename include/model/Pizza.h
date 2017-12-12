@@ -21,7 +21,7 @@ class Pizza
 
     private:
         string name;
-        string topping;
+        string topping; ///Ætti hugsanlega að vera einhver önnur og einfaldari gagnatýpa sem einfaldara væri að meðhöndla.
         int price;
 };
 

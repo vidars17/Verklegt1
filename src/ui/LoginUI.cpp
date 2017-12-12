@@ -4,6 +4,7 @@ LoginUI::LoginUI()
         while(true) {
             string input;
             alpha = "alpha";
+
             quit = "quit";
             cout << "Login: " << endl;
             cin >> input;
