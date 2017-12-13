@@ -199,3 +199,119 @@
 	<iostream>
 	<string>
 
+1513183553 source:c:\users\Ögri\forr\login\verklegt1-master\main.cpp
+	<iostream>
+	"LoginUI.h"
+
+1513188312 c:\users\Ögri\forr\login\verklegt1-master\include\ui\loginui.h
+	<iostream>
+	<string>
+	<cstdlib>
+	"MenuService.h"
+	"ToppingService.h"
+	"PizzaService.h"
+
+1513188731 c:\users\Ögri\forr\login\verklegt1-master\include\ui\alphaloginui.h
+	<iostream>
+	<string>
+	<cstdlib>
+	"MenuService.h"
+	"ToppingService.h"
+	"PizzaService.h"
+
+1513157198 c:\users\Ögri\forr\login\verklegt1-master\include\service\menuservice.h
+	<iostream>
+	<string>
+	"PizzaMenuRepo.h"
+
+1513157198 c:\users\Ögri\forr\login\verklegt1-master\include\repo\pizzamenurepo.h
+	<iostream>
+	<fstream>
+	"Pizza.h"
+
+1513157198 c:\users\Ögri\forr\login\verklegt1-master\include\model\pizza.h
+	<string>
+	<iostream>
+	"Topping.h"
+
+1513157198 c:\users\Ögri\forr\login\verklegt1-master\include\model\topping.h
+	<iostream>
+
+1513157198 c:\users\Ögri\forr\login\verklegt1-master\include\service\toppingservice.h
+	"ToppingRepo.h"
+
+1513157198 c:\users\Ögri\forr\login\verklegt1-master\include\repo\toppingrepo.h
+	<iostream>
+	<fstream>
+	<string>
+	"Topping.h"
+
+1513157198 c:\users\Ögri\forr\login\verklegt1-master\include\service\pizzaservice.h
+	<iostream>
+	<string>
+	<fstream>
+	"Pizza.h"
+	"PizzaRepo.h"
+
+1513157198 c:\users\Ögri\forr\login\verklegt1-master\include\repo\pizzarepo.h
+	"Pizza.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1513157198 source:c:\users\Ögri\forr\login\verklegt1-master\src\model\pizza.cpp
+	"Pizza.h"
+
+1513157198 source:c:\users\Ögri\forr\login\verklegt1-master\src\model\pizzaorder.cpp
+	"PizzaOrder.h"
+
+1513157198 c:\users\Ögri\forr\login\verklegt1-master\include\model\pizzaorder.h
+	"Pizza.h"
+	<iostream>
+	<string>
+
+1513157198 source:c:\users\Ögri\forr\login\verklegt1-master\src\model\topping.cpp
+	"Topping.h"
+	<strings.h>
+
+1513157198 source:c:\users\Ögri\forr\login\verklegt1-master\src\repo\pizzarepo.cpp
+	"PizzaRepo.h"
+
+1513157198 source:c:\users\Ögri\forr\login\verklegt1-master\src\repo\toppingrepo.cpp
+	"ToppingRepo.h"
+	<string>
+
+1513157198 source:c:\users\Ögri\forr\login\verklegt1-master\src\service\pizzaservice.cpp
+	"PizzaService.h"
+
+1513157198 source:c:\users\Ögri\forr\login\verklegt1-master\src\service\toppingservice.cpp
+	"ToppingService.h"
+
+1513186526 source:c:\users\Ögri\forr\login\verklegt1-master\src\ui\alphaloginui.cpp
+	"AlphaLoginUI.h"
+
+1513188600 source:c:\users\Ögri\forr\login\verklegt1-master\src\ui\loginui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"LoginUI.h"
+	"Pizza.h"
+	"AlphaLoginUI.h"
+	"Topping.h"
+	"PizzaService.h"
+	"PizzaOrder.h"
+
+1513187759 source:c:\users\Ögri\forr\login\verklegt1-master\src\repo\pizzaorderrepo.cpp
+	"PizzaOrderRepo.h"
+
+1513187759 c:\users\Ögri\forr\login\verklegt1-master\include\repo\pizzaorderrepo.h
+	"PizzaOrder.h"
+	<fstream>
+
+1513157198 source:c:\users\Ögri\forr\login\verklegt1-master\src\service\pizzaorderservice.cpp
+	"PizzaOrderService.h"
+
+1513157198 c:\users\Ögri\forr\login\verklegt1-master\include\service\pizzaorderservice.h
+	"PizzaOrder.h"
+	"PizzaOrderRepo.h"
+

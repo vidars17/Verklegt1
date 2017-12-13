@@ -13,14 +13,7 @@ class AlphaLoginUI
 {
     public:
         AlphaLoginUI();
-        void alphaMenu();
-
     private:
-        void checkInput(char input);
-        char input;
-        ToppingService toppingService;
-        PizzaService pizzaService;
-
 };
 
 #endif // ALPHALOGINUI_H

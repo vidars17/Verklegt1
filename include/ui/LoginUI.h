@@ -1,9 +1,12 @@
 #ifndef LOGINUI_H
 #define LOGINUI_H
-#include <string>
 #include <iostream>
+#include <string>
 #include <cstdlib>
-#include "AlphaLoginUI.h"
+#include "MenuService.h"
+#include "ToppingService.h"
+#include "PizzaService.h"
+
 using namespace std;
 
 
@@ -12,9 +15,21 @@ class LoginUI
 {
     public:
         LoginUI();
+
+        void welcomeUI();
+        void adminMenuUI();
+        void AlphaLoginUI();
+        void salesUI();
+        void bakerUI();
+        void deliveryUI();
+        void managerUI();
+        void checkInput(string input);
+        void checkInputTwo(string input);
+        void checkInputThree(string input);
+        void checkInputFour(string input);
+        void checkInputZero(string input);
+
     private:
-        AlphaLoginUI alphaLoginUI;
-        void checkLogin(string input);
         string input;
         string alpha;
         string manager;
@@ -22,6 +37,9 @@ class LoginUI
         string baker;
         string delivery;
         string quit;
+        ToppingService toppingService;
+        PizzaService pizzaService;
+
 };
 
 #endif // LOGINUI_H
