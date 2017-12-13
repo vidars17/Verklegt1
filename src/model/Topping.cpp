@@ -1,12 +1,19 @@
 #include "Topping.h"
 #include <strings.h>
-#include <fstream>
+
 
 using namespace std;
-
-Topping::Topping(string name, int price){
-    this->name = name;
-    this->price = price;
+/*
+Topping::Topping(){
+    cout << "smiður" << endl;
+    setName();
+    cout << "smiður" << endl;
+    setPrice();
+}
+*/
+Topping::Topping() {
+    this->name = getName();
+    this->price = getPrice();
 }
 
 string Topping::getName() const{
@@ -15,4 +22,27 @@ string Topping::getName() const{
 
 int Topping::getPrice() const{
     return this->price;
+}
+
+void Topping::setName() {
+    string name;
+    cin >> name;
+    this->name = name;
+}
+
+void Topping::setPrice() {
+    int price;
+    cin >> price;
+    this->price = price;
+}
+
+istream& operator >>(istream& in, Topping& topping) {
+    in >> topping.name;
+    in >> topping.price;
+    return in;
+}
+
+ostream& operator <<(ostream& out, Topping& topping) {
+    out << topping.getName() << ", " << topping.getPrice() << endl;
+    return out;
 }

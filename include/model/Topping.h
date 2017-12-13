@@ -8,9 +8,13 @@ class Topping
 {
     public:
         Topping();
-        Topping(string name, int price);
         string getName() const;
         int getPrice() const;
+        void setName();
+        void setPrice();
+
+        friend istream& operator >>(istream& in, Topping& topping);
+        friend ostream& operator <<(ostream& out, Topping& topping);
     private:
         string name;
         int price;

@@ -1,0 +1,4 @@
+Pepperoni, 200
+2, 2
+Ananas, 2000
+Sveppir, 100

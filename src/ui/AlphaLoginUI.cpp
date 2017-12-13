@@ -22,7 +22,7 @@ void AlphaLoginUI::checkInput(char input) {
         menuService.addPizza();
     }
     else if(input == '2'){
-        ///toppingService.addTopping();
+        toppingService.addTopping();
     }
     else if(input == '3'){
 

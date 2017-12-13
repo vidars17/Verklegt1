@@ -1,13 +1,7 @@
 #include "ToppingRepo.h"
+#include <string>
 
-Topping ToppingRepo::getname(Topping topping) {
-    return topping.getName();
-}
-Topping ToppingRepo::getPrice(Topping topping) {
-    return topping.getPrice();
-}
-
-void ToppingRepo::makeTopping(ToppingRepo& topping) {
+void ToppingRepo::makeTopping() {
     ifstream fin;
     string str;
     fin.open("ToppingsList.txt");
@@ -27,20 +21,10 @@ void ToppingRepo::makeTopping(ToppingRepo& topping) {
     fout.open("ToppingsList.txt", ios::app);
     fout << topping;
     fout.close();
-
+    /*
     fin.open("ToppingsList.txt", ios::app);
     fin.close();
     cout << topping;
-}
-
-istream& operator >> (istream& in, ToppingRepo& topping){
-    in >> getName();
-    in >> getPrice();
-    return in;
-}
-ostream& operator << (ostream& out, const ToppingRepo& topping){
-    out << getName() << ", ";
-    out << getPrice() << endl;
-    return out;
+    */
 }
 
