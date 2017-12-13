@@ -5,6 +5,7 @@
 #include <cstdlib>
 #include "MenuService.h"
 #include "ToppingService.h"
+#include "PizzaService.h"
 
 using namespace std;
 
@@ -18,6 +19,7 @@ class AlphaLoginUI
         void checkInput(char input);
         char input;
         ToppingService toppingService;
+        PizzaService pizzaService;
 };
 
 #endif // ALPHALOGINUI_H

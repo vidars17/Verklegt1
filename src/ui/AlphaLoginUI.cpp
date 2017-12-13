@@ -19,7 +19,7 @@ void AlphaLoginUI::alphaMenu() {
 
 void AlphaLoginUI::checkInput(char input) {
     if(input == '1'){
-        Pizza();
+        pizzaService.makePizza();
     }
     else if(input == '2'){
         toppingService.addTopping();

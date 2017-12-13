@@ -30,7 +30,9 @@ void Topping::setPrice() {
 }
 
 istream& operator >>(istream& in, Topping& topping) {
+    cout << "Name topping: " << endl;
     in >> topping.name;
+    cout << "Price: " << endl;
     in >> topping.price;
     return in;
 }

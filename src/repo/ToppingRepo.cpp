@@ -1,7 +1,7 @@
 #include "ToppingRepo.h"
 #include <string>
 
-void ToppingRepo::makeTopping() {
+void ToppingRepo::readTopping() {
     ifstream fin;
     string str;
     fin.open("ToppingsList.txt");
@@ -10,12 +10,14 @@ void ToppingRepo::makeTopping() {
             getline(fin, str);
             cout << str << endl;
         }
-        cout << fin.eof() << endl;
     }
     else {
         cout << "File not open" << endl;
     }
     fin.close();
+}
+
+void ToppingRepo::writeTopping() {
     cin >> topping;
     ofstream fout;
     fout.open("ToppingsList.txt", ios::app);

@@ -63,12 +63,13 @@
 	<cstdlib>
 	"AlphaLoginUI.h"
 
-1513176826 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\ui\alphaloginui.h
+1513180269 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\ui\alphaloginui.h
 	<iostream>
 	<string>
 	<cstdlib>
 	"MenuService.h"
 	"ToppingService.h"
+	"PizzaService.h"
 
 1513079670 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\menuservice.h
 	<iostream>
@@ -78,7 +79,7 @@
 1513173519 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\toppingservice.h
 	"ToppingRepo.h"
 
-1513174558 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\toppingservice.cpp
+1513177894 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\toppingservice.cpp
 	"ToppingService.h"
 
 1513081453 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\loginui.cpp
@@ -92,7 +93,7 @@
 1513176519 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
 	"Pizza.h"
 
-1513176754 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
+1513180269 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
 	"AlphaLoginUI.h"
 
 1513079670 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\menuservice.cpp
@@ -154,20 +155,39 @@
 1512580401 source:c:\users\bjössman\desktop\gitrep\verklegt1-master\src\ui\loginui.cpp
 	"LoginUI.h"
 
-1513176519 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\topping.cpp
+1513177502 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\topping.cpp
 	"Topping.h"
 	<strings.h>
 
 1513175041 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\topping.h
 	<iostream>
 
-1513176519 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\toppingrepo.cpp
+1513178135 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\toppingrepo.cpp
 	"ToppingRepo.h"
 	<string>
 
-1513175004 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\repo\toppingrepo.h
+1513177861 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\repo\toppingrepo.h
 	<iostream>
 	<fstream>
 	<string>
 	"Topping.h"
+
+1513180508 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\pizzaservice.h
+	<iostream>
+	<string>
+	<fstream>
+	"Pizza.h"
+	"PizzaRepo.h"
+
+1513180009 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\repo\pizzarepo.h
+	"Pizza.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1513179963 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\pizzarepo.cpp
+	"PizzaRepo.h"
+
+1513180086 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzaservice.cpp
+	"PizzaService.h"
 

@@ -12,7 +12,8 @@ using namespace std;
 class ToppingRepo
 {
     public:
-        void makeTopping();
+        void readTopping();
+        void writeTopping();
     private:
         Topping topping;
 
