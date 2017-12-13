@@ -41,22 +41,21 @@ void LoginUI::checkInputZero(string input) {
                 LoginUI adminMenuUI;
                 adminMenuUI.AlphaLoginUI();
     }
-    else if(input == "operator" || input == "Operator"){
+    else if(input == "operator" || input == "Operator" || input =="O" || input =="o"){
                 LoginUI salesMenuUI;
                 salesMenuUI.salesUI();
     }
-    else if(input == "Baker" || input == "baker"){
+    else if(input == "Baker" || input == "baker" || input =="b" || input =="B"){
                 LoginUI bakerMenuUI;
                 bakerMenuUI.bakerUI();
 
     }
-    else if(input == "Delivery" || input == "delivery"){
+    else if(input == "Delivery" || input == "delivery" || input =="D" || input =="d"){
                 LoginUI deliveryMenuUI;
                 deliveryMenuUI.deliveryUI();
     }
-    else if(input == "Q" || input == "q"){
-                LoginUI welcomeMenu;
-                welcomeMenu.welcomeUI();
+    else if(input == "Q" || input == "q" || input == "EXIT" || input == "exit" || input =="Exit" || input =="Quit" || input =="quit" || input =="QUIT"){
+                exit(0);
                 cout << endl;
                 }
     else {
