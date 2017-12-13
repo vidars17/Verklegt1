@@ -17,7 +17,6 @@ class AlphaLoginUI
     private:
         void checkInput(char input);
         char input;
-        MenuService menuService;
         ToppingService toppingService;
 };
 

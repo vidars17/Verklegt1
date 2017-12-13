@@ -21,10 +21,5 @@ void ToppingRepo::makeTopping() {
     fout.open("ToppingsList.txt", ios::app);
     fout << topping;
     fout.close();
-    /*
-    fin.open("ToppingsList.txt", ios::app);
-    fin.close();
-    cout << topping;
-    */
 }
 

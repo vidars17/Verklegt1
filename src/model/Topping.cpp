@@ -3,14 +3,7 @@
 
 
 using namespace std;
-/*
-Topping::Topping(){
-    cout << "smiður" << endl;
-    setName();
-    cout << "smiður" << endl;
-    setPrice();
-}
-*/
+
 Topping::Topping() {
     this->name = getName();
     this->price = getPrice();

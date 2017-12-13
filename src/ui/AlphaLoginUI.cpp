@@ -8,7 +8,7 @@ void AlphaLoginUI::alphaMenu() {
     while(true){
         ///system("cls");
         cout << "Alpha User welcome!" << endl << "Please choose a task." << endl << "*********************" << endl << endl;
-        cout << "1: Edit price on menu" << endl << "2: Edit toppings and prices" << endl;
+        cout << "1: Add pizza" << endl << "2: Add toppings and prices" << endl;
         cout << "3: Add order" << endl << "4: Mark paid" << endl << "5: Get a pizza order" << endl;
         cout << "6: Mark in-progress" << endl << "7: Mark ready" << endl << "8: Mark delivered" << endl << "9: Mark hi" << endl;
         char input;
@@ -19,7 +19,7 @@ void AlphaLoginUI::alphaMenu() {
 
 void AlphaLoginUI::checkInput(char input) {
     if(input == '1'){
-        menuService.addPizza();
+        Pizza();
     }
     else if(input == '2'){
         toppingService.addTopping();

@@ -42,18 +42,14 @@
 		</Compiler>
 		<Unit filename="include/model/Pizza.h" />
 		<Unit filename="include/model/Topping.h" />
-		<Unit filename="include/repo/PizzaMenuRepo.h" />
 		<Unit filename="include/repo/ToppingRepo.h" />
-		<Unit filename="include/service/MenuService.h" />
 		<Unit filename="include/service/ToppingService.h" />
 		<Unit filename="include/ui/AlphaLoginUI.h" />
 		<Unit filename="include/ui/LoginUI.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/model/Pizza.cpp" />
 		<Unit filename="src/model/Topping.cpp" />
-		<Unit filename="src/repo/PizzaMenuRepo.cpp" />
 		<Unit filename="src/repo/ToppingRepo.cpp" />
-		<Unit filename="src/service/MenuService.cpp" />
 		<Unit filename="src/service/ToppingService.cpp" />
 		<Unit filename="src/ui/AlphaLoginUI.cpp" />
 		<Unit filename="src/ui/LoginUI.cpp" />

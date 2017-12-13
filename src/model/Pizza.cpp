@@ -1,37 +1,55 @@
 #include "Pizza.h"
 
-Pizza::Pizza() {
-    setName();
-    setTopping();
-    setPrice();
+Pizza::Pizza()
+{
+    toppingCount = 0;
+    toppings = 0;
+    currentToppingNum = 0;
+}
+Pizza::Pizza(int numberOfToppings) {
+    initialize(numberOfToppings);
+}
+void Pizza::initialize(int numberOfToppings){
+    toppingCount = numberOfToppings;
+    toppings = new Topping[toppingCount];
+    currentToppingNum = 0;
+}
+void Pizza::clean(){
+     if(toppings != 0){
+        delete[] toppings;
+        toppingCount = 0;
+        toppings = 0;
+        currentToppingNum = 0;
+    }
+}
+Pizza::~Pizza()
+{
+    clean();
+}
+void Pizza::addTopping(Topping topping){
+    if (currentToppingNum < toppingCount){
+        toppings[currentToppingNum] = topping;
+        currentToppingNum++;
+    }
 }
 
-string Pizza::getName() const{
-    return name;
+istream& operator >> (istream& in, Pizza& pizza){
+    int toppingCount;
+    in >> toppingCount;
+    pizza.initialize(toppingCount);
+    Topping topping;
+    for(int i = 0; i < pizza.toppingCount; i++){
+        in >> topping;
+        pizza.addTopping(topping);
+    }
+    return in;
 }
+ostream& operator << (ostream& out, const Pizza& pizza){
+    out << "Pizza with " << pizza.toppingCount << " toppings: " << endl;
 
-string Pizza::getTopping() const{
-    return topping;
-}
+    for(int i = 0; i < pizza.toppingCount; i++){
+        out << pizza.toppings[i] << " ";
+    }
 
-int Pizza::getPrice() const{
-    return price;
-}
-
-void Pizza::setName() {
-    string name;
-    cin >> name;
-    this->name = name;
-}
-
-void Pizza::setTopping() {
-    string topping;
-    cin >> topping;
-    this->topping = topping;
-}
-
-void Pizza::setPrice() {
-    int price;
-    cin >> price;
-    this->price = price;
+    return out;
 }

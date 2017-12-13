@@ -2,7 +2,7 @@
 #define PIZZA_H
 #include <string>
 #include <iostream>
-
+#include "Topping.h"
 using namespace std;
 
 
@@ -10,19 +10,21 @@ class Pizza
 {
     public:
         Pizza();
+        Pizza(int numberOfToppings);
+        void initialize(int numberOfToppings);
+        void addTopping(Topping topping);
+        void clean();
+        friend istream& operator >> (istream& in, Pizza& pizza);
+        friend ostream& operator << (ostream& out, const Pizza& pizza);
 
-        string getName() const;
-        string getTopping() const;
-        int getPrice() const;
+        virtual ~Pizza();
 
-        void setName();
-        void setTopping();
-        void setPrice();
+    protected:
 
     private:
-        string name;
-        string topping; ///Ætti hugsanlega að vera einhver önnur og einfaldari gagnatýpa sem einfaldara væri að meðhöndla.
-        int price;
+        Topping *toppings;
+        int toppingCount;
+        int currentToppingNum;
 };
 
 #endif // PIZZA_H

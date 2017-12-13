@@ -63,7 +63,7 @@
 	<cstdlib>
 	"AlphaLoginUI.h"
 
-1512566156 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\ui\alphaloginui.h
+1513176826 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\ui\alphaloginui.h
 	<iostream>
 	<string>
 	<cstdlib>
@@ -84,14 +84,15 @@
 1513081453 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\loginui.cpp
 	"LoginUI.h"
 
-1513079670 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizza.h
+1513176540 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizza.h
 	<string>
 	<iostream>
+	"Topping.h"
 
-1512650847 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
+1513176519 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
 	"Pizza.h"
 
-1513172527 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
+1513176754 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
 	"AlphaLoginUI.h"
 
 1513079670 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\menuservice.cpp
@@ -153,14 +154,14 @@
 1512580401 source:c:\users\bjössman\desktop\gitrep\verklegt1-master\src\ui\loginui.cpp
 	"LoginUI.h"
 
-1513175041 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\topping.cpp
+1513176519 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\topping.cpp
 	"Topping.h"
 	<strings.h>
 
 1513175041 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\topping.h
 	<iostream>
 
-1513175624 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\toppingrepo.cpp
+1513176519 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\toppingrepo.cpp
 	"ToppingRepo.h"
 	<string>
 
