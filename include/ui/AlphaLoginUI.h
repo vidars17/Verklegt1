@@ -20,6 +20,7 @@ class AlphaLoginUI
         char input;
         ToppingService toppingService;
         PizzaService pizzaService;
+
 };
 
 #endif // ALPHALOGINUI_H

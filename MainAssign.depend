@@ -63,7 +63,7 @@
 	<cstdlib>
 	"AlphaLoginUI.h"
 
-1513180269 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\ui\alphaloginui.h
+1513185746 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\ui\alphaloginui.h
 	<iostream>
 	<string>
 	<cstdlib>
@@ -93,7 +93,7 @@
 1513176519 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
 	"Pizza.h"
 
-1513180269 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
+1513184128 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
 	"AlphaLoginUI.h"
 
 1513079670 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\menuservice.cpp
@@ -190,4 +190,12 @@
 
 1513180086 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzaservice.cpp
 	"PizzaService.h"
+
+1513184204 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizzaorder.cpp
+	"PizzaOrder.h"
+
+1513184311 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizzaorder.h
+	"Pizza.h"
+	<iostream>
+	<string>
 

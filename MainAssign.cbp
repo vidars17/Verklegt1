@@ -41,18 +41,24 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/model/Pizza.h" />
+		<Unit filename="include/model/PizzaOrder.h" />
 		<Unit filename="include/model/Topping.h" />
+		<Unit filename="include/repo/PizzaOrderRepo.h" />
 		<Unit filename="include/repo/PizzaRepo.h" />
 		<Unit filename="include/repo/ToppingRepo.h" />
+		<Unit filename="include/service/PizzaOrderService.h" />
 		<Unit filename="include/service/PizzaService.h" />
 		<Unit filename="include/service/ToppingService.h" />
 		<Unit filename="include/ui/AlphaLoginUI.h" />
 		<Unit filename="include/ui/LoginUI.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/model/Pizza.cpp" />
+		<Unit filename="src/model/PizzaOrder.cpp" />
 		<Unit filename="src/model/Topping.cpp" />
+		<Unit filename="src/repo/PizzaOrderRepo.cpp" />
 		<Unit filename="src/repo/PizzaRepo.cpp" />
 		<Unit filename="src/repo/ToppingRepo.cpp" />
+		<Unit filename="src/service/PizzaOrderService.cpp" />
 		<Unit filename="src/service/PizzaService.cpp" />
 		<Unit filename="src/service/ToppingService.cpp" />
 		<Unit filename="src/ui/AlphaLoginUI.cpp" />

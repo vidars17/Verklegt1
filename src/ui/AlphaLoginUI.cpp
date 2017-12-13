@@ -25,7 +25,7 @@ void AlphaLoginUI::checkInput(char input) {
         toppingService.addTopping();
     }
     else if(input == '3'){
-
+        PizzaOrder();
     }
     else if(input == '4'){
 
