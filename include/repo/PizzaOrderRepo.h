@@ -4,11 +4,12 @@
 #include <fstream>
 
 
+
 class PizzaOrderRepo
 {
     public:
-        PizzaOrderRepo();
-        void addOrder(const PizzaOrder& pizzaOrder);
+        void retrievePizzaOrder();
+        void storePizzaOrder(const PizzaOrder& pizzaOrder);
 
     private:
 };
@@ -16,4 +17,3 @@ class PizzaOrderRepo
 #endif // PIZZAORDERREPO_H
 
 
-/// Skoða betur

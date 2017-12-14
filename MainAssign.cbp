@@ -18,6 +18,9 @@
 					<Add directory="include/model" />
 					<Add directory="include/repo" />
 				</Compiler>
+				<Linker>
+					<Add option="-WI, --stack=19531" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/MainAssign" prefix_auto="1" extension_auto="1" />
@@ -49,7 +52,6 @@
 		<Unit filename="include/service/PizzaOrderService.h" />
 		<Unit filename="include/service/PizzaService.h" />
 		<Unit filename="include/service/ToppingService.h" />
-		<Unit filename="include/ui/AlphaLoginUI.h" />
 		<Unit filename="include/ui/LoginUI.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/model/Pizza.cpp" />
@@ -61,7 +63,6 @@
 		<Unit filename="src/service/PizzaOrderService.cpp" />
 		<Unit filename="src/service/PizzaService.cpp" />
 		<Unit filename="src/service/ToppingService.cpp" />
-		<Unit filename="src/ui/AlphaLoginUI.cpp" />
 		<Unit filename="src/ui/LoginUI.cpp" />
 		<Extensions>
 			<code_completion />

@@ -15,6 +15,8 @@ void PizzaService::makePizza(){
 			Pizza pizza(toppingCnt);
 				for (int i = 0; i < toppingCnt; i++) {
 				Topping topping;
+				ToppingRepo topping2;
+				topping2.readTopping();
 				cin >> topping;
 				pizza.addTopping(topping);
 				}

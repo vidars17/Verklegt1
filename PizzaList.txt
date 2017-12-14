@@ -2,3 +2,6 @@ Pizza with 2 toppings:
 Pepperoni, 200
  Sveppir, 100
  
+Pizza with 1 toppings: 
+Banani, 50
+ 

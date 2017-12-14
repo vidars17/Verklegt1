@@ -14,13 +14,20 @@ class PizzaOrder
         void setPaid();
         char getStatus();
         void getPaid();
+        PizzaOrder(int numberOfPizzas);
+        void initialize(int numberOfPizzas);
+        void addPizza(Pizza pizza);
+        void clean();
+        friend istream& operator >> (istream& in, PizzaOrder& pizzaOrder);
+        friend ostream& operator << (ostream& out, const PizzaOrder& pizzaOrder);
 
-        friend istream& operator >>(istream& in, Pizza& pizzaOrder);
-        friend ostream& operator <<(ostream& out, const PizzaOrder& pizzaOrder);
-
+        virtual ~PizzaOrder();
     private:
         char status;
-        bool paid = false;
+        bool paid;
+        Pizza *pizzas;
+        int pizzaCount;
+        int currentPizzaNum;
 };
 
 #endif // PIZZAORDER_H

@@ -19,8 +19,6 @@ class Pizza
 
         virtual ~Pizza();
 
-    protected:
-
     private:
         Topping *toppings;
         int toppingCount;

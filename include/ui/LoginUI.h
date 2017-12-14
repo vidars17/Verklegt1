@@ -6,6 +6,7 @@
 #include "MenuService.h"
 #include "ToppingService.h"
 #include "PizzaService.h"
+#include "PizzaOrderService.h"
 
 using namespace std;
 
@@ -39,6 +40,7 @@ class LoginUI
         string quit;
         ToppingService toppingService;
         PizzaService pizzaService;
+        PizzaOrderService pizzaOrderService;
 
 };
 

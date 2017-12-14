@@ -83,7 +83,7 @@ void LoginUI::checkInput(string input) {
         toppingService.addTopping();
     }
     else if(input == "3"){
-        PizzaOrder();
+        pizzaOrderService.makePizzaOrder();
     }
     else if(input == "4"){
 

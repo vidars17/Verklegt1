@@ -37,7 +37,7 @@ istream& operator >> (istream& in, Pizza& pizza){
     int toppingCount;
     in >> toppingCount;
     pizza.initialize(toppingCount);
-    Topping topping;
+    Topping topping; ///setja throw exception
     for(int i = 0; i < pizza.toppingCount; i++){
         in >> topping;
         pizza.addTopping(topping);
