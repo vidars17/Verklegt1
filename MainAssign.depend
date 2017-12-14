@@ -57,14 +57,14 @@
 	<iostream>
 	"LoginUI.h"
 
-1513252183 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\ui\loginui.h
+1513277095 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\ui\loginui.h
 	<iostream>
 	<string>
 	<cstdlib>
-	"MenuService.h"
 	"ToppingService.h"
 	"PizzaService.h"
 	"PizzaOrderService.h"
+	"PizzaStatusService.h"
 
 1513247831 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\ui\alphaloginui.h
 	<iostream>
@@ -85,7 +85,7 @@
 1513177894 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\toppingservice.cpp
 	"ToppingService.h"
 
-1513252166 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\loginui.cpp
+1513277305 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\loginui.cpp
 	<iostream>
 	<string>
 	<fstream>
@@ -100,7 +100,7 @@
 	<iostream>
 	"Topping.h"
 
-1513265954 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
+1513268096 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
 	"Pizza.h"
 
 1513184128 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
@@ -201,13 +201,14 @@
 1513266402 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzaservice.cpp
 	"PizzaService.h"
 
-1513265998 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizzaorder.cpp
+1513275006 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizzaorder.cpp
 	"PizzaOrder.h"
 
-1513251835 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizzaorder.h
+1513274955 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizzaorder.h
 	"Pizza.h"
 	<iostream>
 	<string>
+	<ctype.h>
 
 1513183553 source:c:\users\Ögri\forr\login\verklegt1-master\main.cpp
 	<iostream>
@@ -454,5 +455,11 @@
 1513266104 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\pizzaorderservice.h
 	"PizzaOrder.h"
 	"ToppingRepo.h"
+	"PizzaOrderRepo.h"
+
+1513276635 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzastatusservice.cpp
+	"PizzaStatusService.h"
+
+1513276305 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\pizzastatusservice.h
 	"PizzaOrderRepo.h"
 

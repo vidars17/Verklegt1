@@ -3,6 +3,7 @@
 #include "Pizza.h"
 #include <iostream>
 #include <string>
+#include <ctype.h>
 
 using namespace std;
 
@@ -12,14 +13,18 @@ class PizzaOrder
         PizzaOrder();
         void setStatus();
         void setPaid();
-        char getStatus();
-        void getPaid();
+        string getStatus() const;
+        string getPaid() const;
         PizzaOrder(int numberOfPizzas);
         void initialize(int numberOfPizzas);
         void addPizza(Pizza pizza);
         void clean();
         friend istream& operator >> (istream& in, PizzaOrder& pizzaOrder);
         friend ostream& operator << (ostream& out, const PizzaOrder& pizzaOrder);
+
+        void setStatusReady();
+        void setStatusInProgress();
+        void setStatusDelivered();
 
         virtual ~PizzaOrder();
     private:

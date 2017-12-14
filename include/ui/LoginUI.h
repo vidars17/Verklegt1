@@ -3,10 +3,11 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
-#include "MenuService.h"
+
 #include "ToppingService.h"
 #include "PizzaService.h"
 #include "PizzaOrderService.h"
+#include "PizzaStatusService.h"
 
 using namespace std;
 
@@ -41,6 +42,8 @@ class LoginUI
         ToppingService toppingService;
         PizzaService pizzaService;
         PizzaOrderService pizzaOrderService;
+        PizzaOrder pizzaOrder;
+        PizzaStatusService pizzaStatusService;
 
 };
 

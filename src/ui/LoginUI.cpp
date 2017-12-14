@@ -86,28 +86,32 @@ void LoginUI::checkInput(string input) {
         pizzaOrderService.makePizzaOrder();
     }
     else if(input == "4"){
-
+        pizzaOrder.setPaid();
+        pizzaStatusService.setPizzaStatus(pizzaOrder);
     }
     else if(input == "5"){
 
     }
     else if(input == "6"){
-
+        pizzaOrder.setStatusInProgress();
+        pizzaStatusService.setPizzaStatus(pizzaOrder);
     }
     else if(input == "7"){
-
+        pizzaOrder.setStatusReady();
+        pizzaStatusService.setPizzaStatus(pizzaOrder);
     }
     else if(input == "8"){
-
+        pizzaOrder.setStatusDelivered();
+        pizzaStatusService.setPizzaStatus(pizzaOrder);
     }
     else if(input == "9"){
         cout << "Oh hi Mark" << endl;
         exit(0);
     }
     else if(input == "Q" || input == "q"){
-                LoginUI welcomeMenu;
-                welcomeMenu.welcomeUI();
-                cout << endl;
+        LoginUI welcomeMenu;
+        welcomeMenu.welcomeUI();
+        cout << endl;
     }
     else {
         cout << "Invalid input!" << endl;
