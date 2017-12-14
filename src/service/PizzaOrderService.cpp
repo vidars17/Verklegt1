@@ -15,8 +15,9 @@ void PizzaOrderService::makePizzaOrder(){
 			PizzaOrder pizzaOrder(pizzaCnt);
 				for (int i = 0; i < pizzaCnt; i++) {
 				Pizza pizza;
-				PizzaRepo pizza2;
-				pizza2.retrievePizza();
+				ToppingRepo pizza2;
+				pizza2.readTopping();
+				cout << "How many toppings: ";
 				cin >> pizza;
 				pizzaOrder.addPizza(pizza);
 				}

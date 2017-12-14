@@ -17,7 +17,7 @@ void PizzaOrderRepo::retrievePizzaOrder() {
 }
 void PizzaOrderRepo::storePizzaOrder(const PizzaOrder& pizzaOrder) {
     ofstream fout;
-    fout.open("pizzaorders.txt", ios::app);
+    fout.open("pizzaorders.txt");
     fout << pizzaOrder;
     fout.close();
 

@@ -1,6 +1,15 @@
-Pizza with 0 toppings: 
 Pizza with 2 toppings: 
 Pizza with 1 toppings: 
-Banani, 50
-  Pizza with 0 toppings: 
+bla, 100
+  Pizza with 1 toppings: 
+bla, 100
+  Order with 2 pizzas: 
+Pizza with 1 toppings: 
+bla, 1
+ 
+ Pizza with 2 toppings: 
+ble, 2
+ 
+bla, 1
+ 
  

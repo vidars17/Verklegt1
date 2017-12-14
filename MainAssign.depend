@@ -100,7 +100,7 @@
 	<iostream>
 	"Topping.h"
 
-1513264947 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
+1513265954 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
 	"Pizza.h"
 
 1513184128 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
@@ -198,10 +198,10 @@
 1513179963 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\pizzarepo.cpp
 	"PizzaRepo.h"
 
-1513248618 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzaservice.cpp
+1513266402 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzaservice.cpp
 	"PizzaService.h"
 
-1513251835 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizzaorder.cpp
+1513265998 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizzaorder.cpp
 	"PizzaOrder.h"
 
 1513251835 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizzaorder.h
@@ -441,18 +441,18 @@
 	"PizzaService.h"
 	"PizzaOrder.h"
 
-1513251764 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\pizzaorderrepo.cpp
+1513266508 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\pizzaorderrepo.cpp
 	"PizzaOrderRepo.h"
 
 1513251561 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\repo\pizzaorderrepo.h
 	"PizzaOrder.h"
 	<fstream>
 
-1513251561 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzaorderservice.cpp
+1513266398 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzaorderservice.cpp
 	"PizzaOrderService.h"
 
-1513251320 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\pizzaorderservice.h
+1513266104 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\pizzaorderservice.h
 	"PizzaOrder.h"
-	"PizzaRepo.h"
+	"ToppingRepo.h"
 	"PizzaOrderRepo.h"
 

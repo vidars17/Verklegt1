@@ -49,7 +49,7 @@ ostream& operator << (ostream& out, const Pizza& pizza){
     out << "Pizza with " << pizza.toppingCount << " toppings: " << endl;
 
     for(int i = 0; i < pizza.toppingCount; i++){
-        out << pizza.toppings[i] << " ";
+        out << pizza.toppings[i] << " " << endl;
     }
 
     return out;

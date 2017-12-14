@@ -4,7 +4,6 @@ PizzaOrder::PizzaOrder() {
     Pizza pizza();
     setStatus();
     this->paid = false;
-    int numberOfPizzas = 0;
 }
 
 void PizzaOrder::setStatus(){
@@ -71,7 +70,7 @@ istream& operator >> (istream& in, PizzaOrder& pizzaOrder){
     return in;
 }
 ostream& operator << (ostream& out, const PizzaOrder& pizzaOrder){
-    out << "Pizza with " << pizzaOrder.pizzaCount << " toppings: " << endl;
+    out << "Order with " << pizzaOrder.pizzaCount << " pizzas: " << endl;
 
     for(int i = 0; i < pizzaOrder.pizzaCount; i++){
         out << pizzaOrder.pizzas[i] << " ";
