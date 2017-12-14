@@ -1,1 +1,6 @@
 Pizza with 0 toppings: 
+Pizza with 2 toppings: 
+Pizza with 1 toppings: 
+Banani, 50
+  Pizza with 0 toppings: 
+ 

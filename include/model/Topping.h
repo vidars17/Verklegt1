@@ -14,7 +14,7 @@ class Topping
         void setPrice();
 
         friend istream& operator >>(istream& in, Topping& topping);
-        friend ostream& operator <<(ostream& out, Topping& topping);
+        friend ostream& operator <<(ostream& out, const Topping& topping);
     private:
         string name;
         int price;

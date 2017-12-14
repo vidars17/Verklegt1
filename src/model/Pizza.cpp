@@ -3,17 +3,17 @@
 Pizza::Pizza()
 {
     toppingCount = 0;
-    toppings = 0;
     currentToppingNum = 0;
 }
+
 Pizza::Pizza(int numberOfToppings) {
     initialize(numberOfToppings);
 }
 void Pizza::initialize(int numberOfToppings){
     toppingCount = numberOfToppings;
-    toppings = new Topping[toppingCount];
-    currentToppingNum = 0;
+    this->currentToppingNum = 0;
 }
+/*
 void Pizza::clean(){
      if(toppings != 0){
         delete[] toppings;
@@ -26,6 +26,7 @@ Pizza::~Pizza()
 {
     clean();
 }
+*/
 void Pizza::addTopping(Topping topping){
     if (currentToppingNum < toppingCount){
         toppings[currentToppingNum] = topping;

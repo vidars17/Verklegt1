@@ -18,9 +18,6 @@
 					<Add directory="include/model" />
 					<Add directory="include/repo" />
 				</Compiler>
-				<Linker>
-					<Add option="-WI, --stack=19531" />
-				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/MainAssign" prefix_auto="1" extension_auto="1" />

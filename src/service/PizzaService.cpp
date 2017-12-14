@@ -13,13 +13,13 @@ void PizzaService::makePizza(){
             cin >> toppingCnt;
             cout << endl;
 			Pizza pizza(toppingCnt);
-				for (int i = 0; i < toppingCnt; i++) {
-				Topping topping;
-				ToppingRepo topping2;
-				topping2.readTopping();
-				cin >> topping;
-				pizza.addTopping(topping);
-				}
+            for (int i = 0; i < toppingCnt; i++) {
+            Topping topping;
+            ToppingRepo topping2;
+            topping2.readTopping();
+            cin >> topping;
+            pizza.addTopping(topping);
+            }
 			cout << pizza;
 			PizzaRepo pizzaRepo;
 			pizzaRepo.storePizza(pizza);

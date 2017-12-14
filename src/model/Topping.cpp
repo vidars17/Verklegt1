@@ -37,7 +37,7 @@ istream& operator >>(istream& in, Topping& topping) {
     return in;
 }
 
-ostream& operator <<(ostream& out, Topping& topping) {
+ostream& operator <<(ostream& out, const Topping& topping) {
     out << topping.getName() << ", " << topping.getPrice() << endl;
     return out;
 }

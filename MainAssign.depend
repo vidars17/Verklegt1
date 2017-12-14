@@ -96,12 +96,11 @@
 	"PizzaService.h"
 	"PizzaOrder.h"
 
-1513249619 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizza.h
-	<string>
+1513264563 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizza.h
 	<iostream>
 	"Topping.h"
 
-1513252500 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
+1513264947 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
 	"Pizza.h"
 
 1513184128 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
@@ -166,11 +165,11 @@
 1512580401 source:c:\users\bjössman\desktop\gitrep\verklegt1-master\src\ui\loginui.cpp
 	"LoginUI.h"
 
-1513177502 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\topping.cpp
+1513265180 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\topping.cpp
 	"Topping.h"
 	<strings.h>
 
-1513175041 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\topping.h
+1513265180 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\topping.h
 	<iostream>
 
 1513178135 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\toppingrepo.cpp
