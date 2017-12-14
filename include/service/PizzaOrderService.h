@@ -9,7 +9,7 @@ class PizzaOrderService
 {
     public:
         void makePizzaOrder();
-
+        int parseToppings(string line);
     private:
 };
 

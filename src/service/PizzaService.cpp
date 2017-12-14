@@ -1,4 +1,7 @@
 #include "PizzaService.h"
+#include "Topping.h"
+#include "isValidNoNumberException.h"
+#include "isValidNumberException.h"
 
 void PizzaService::makePizza(){
     char task = '\0';
@@ -34,4 +37,20 @@ void PizzaService::makePizza(){
                 cout << endl;
                 }break;
     }
+}
+
+bool Topping::isValidNoNumber(const Topping& topping) {  /// Spurning um að nota exceptions?
+    string name = topping.getName();
+
+    for(unsigned int i = 0; i < name.length(); i++) {
+        if (isdigit(name[i]))
+            throw isValidNoNumberException();
+            }
+             return true;
+    }
+bool Topping::isValidNumber(const Topping& topping) {
+    if (topping.getPrice() < 0 || topping.getPrice() > 3500000) {
+            throw isValidNumberException();
+            }
+             return true;
 }

@@ -2,22 +2,13 @@
 
 PizzaOrder::PizzaOrder() {
     Pizza pizza();
-    this->status = '\0';
+    setStatus();
     this->paid = false;
 }
 
-void PizzaOrder::setStatusReady(){
-    char status = 'r';
-    this->status = status;
-}
-
-void PizzaOrder::setStatusInProgress(){
-    char status = 'p';
-    this->status = status;
-}
-
-void PizzaOrder::setStatusDelivered(){
-    char status = 'd';
+void PizzaOrder::setStatus(){
+    char status;
+    cin >> status;
     this->status = status;
 }
 
@@ -25,51 +16,27 @@ void PizzaOrder::setPaid() {
     this->paid = true;
 }
 
-string PizzaOrder::getStatus() const{
-    char status = '\0';
-    string progress;
-    status = this->status;
-    switch(status) {
-        case 'p':
-        case 'P': {
-            progress = "In progress.";
-            return progress;
-        }break;
-        case 'r':
-        case 'R': {
-            progress = "Ready.";
-            return progress;
-        }break;
-        case 'd':
-        case 'D': {
-            progress = "Delivered.";
-            return progress;
-        }break;
-    }
-    progress = "Recieved.";
-    return progress;
+char PizzaOrder::getStatus() {
+    return this->status;
 }
 
-string PizzaOrder::getPaid() const{
-    string isPaid;
-    if(this->paid == true) {
-        isPaid = "Order has been paid.";
-        return isPaid;
+void PizzaOrder::getPaid() {
+    if(this->paid) {
+        cout << "Pizza has been paid.";
     }
-    isPaid = "Order has not been paid.";
-    return isPaid;
+    cout << "Pizza has not been paid.";
 }
+
+
 
 PizzaOrder::PizzaOrder(int numberOfPizzas) {
     initialize(numberOfPizzas);
 }
-
 void PizzaOrder::initialize(int numberOfPizzas){
     pizzaCount = numberOfPizzas;
     pizzas = new Pizza[pizzaCount];
     currentPizzaNum = 0;
 }
-
 void PizzaOrder::clean(){
      if(pizzas != 0){
         delete[] pizzas;
@@ -78,18 +45,18 @@ void PizzaOrder::clean(){
         currentPizzaNum = 0;
     }
 }
-
 PizzaOrder::~PizzaOrder()
 {
     clean();
 }
-
 void PizzaOrder::addPizza(Pizza pizza){
     if (currentPizzaNum < pizzaCount){
         pizzas[currentPizzaNum] = pizza;
         currentPizzaNum++;
     }
 }
+
+
 
 istream& operator >> (istream& in, PizzaOrder& pizzaOrder){
     int pizzaCount;
@@ -102,16 +69,12 @@ istream& operator >> (istream& in, PizzaOrder& pizzaOrder){
     }
     return in;
 }
-
 ostream& operator << (ostream& out, const PizzaOrder& pizzaOrder){
-    out << "Order with " << pizzaOrder.pizzaCount << " pizzas: " << endl;
-    out << endl;
+    out << "This order contains " << pizzaOrder.pizzaCount << " pizzas: " << endl;
+
     for(int i = 0; i < pizzaOrder.pizzaCount; i++){
         out << pizzaOrder.pizzas[i] << " ";
     }
-    out << endl;
-    out << pizzaOrder.getStatus() << endl;
-    out << pizzaOrder.getPaid() << endl;
 
     return out;
 }

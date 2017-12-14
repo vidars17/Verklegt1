@@ -14,6 +14,8 @@ class PizzaService
         void makePizza();
 
     private:
+        bool isValidNoNumber(const Pizza& Pizza);
+        bool isValidNumber(const Pizza& Pizza);
 };
 
 #endif // PIZZASERVICE_H

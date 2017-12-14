@@ -5,6 +5,7 @@ Banani, 100
 Beikon, 200
 Hakk, 200
 Tomatar, 100
+Skinka, 100
 Kjuklingur, 200
 Mozzarella, 50
 Piparostur, 50

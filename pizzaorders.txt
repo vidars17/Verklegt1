@@ -1,5 +1,6 @@
-Order with 0 pizzas: 
-
-
-In progress.
-Order has not been paid.
+This order contains 1 pizzas: 
+Pizza with 2 toppings: 
+banani, 150
+pepperoni, 200
+ 
+ 
