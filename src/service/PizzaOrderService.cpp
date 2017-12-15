@@ -37,7 +37,7 @@ void PizzaOrderService::makePizzaOrder(){
         PizzaOrder pizzaOrder(pizzaCnt);
             ofstream fout;
             fout.open("pizzaorders.txt");
-            fout << "This order has " << pizzaCnt << "pizza(s)." << endl;
+            fout << "This order has " << pizzaCnt << " pizza(s)." << endl;
             fout << "Size: " << staerd << endl;
         for (int i = 0; i < pizzaCnt; i++) {
                 cout << "How many toppings: ";
