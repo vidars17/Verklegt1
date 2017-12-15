@@ -1,7 +1,0 @@
-Order with 1 pizzas: 
-
-Pizza with 0 toppings: 
- 
-Delivered.
-Order has been paid.
-

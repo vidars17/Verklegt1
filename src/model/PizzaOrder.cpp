@@ -3,7 +3,7 @@
 PizzaOrder::PizzaOrder() {
     Pizza pizza();
     this->status = '\0';
-    this->paid = false;
+    this->paid = '\0';
 }
 
 void PizzaOrder::setStatusReady(){
@@ -22,7 +22,7 @@ void PizzaOrder::setStatusDelivered(){
 }
 
 void PizzaOrder::setPaid() {
-    this->paid = true;
+    this->paid = 'y';
 }
 
 string PizzaOrder::getStatus() const{
@@ -52,7 +52,7 @@ string PizzaOrder::getStatus() const{
 
 string PizzaOrder::getPaid() const{
     string isPaid;
-    if(this->paid == true) {
+    if(this->paid == 'y') {
         isPaid = "Order has been paid.";
         return isPaid;
     }

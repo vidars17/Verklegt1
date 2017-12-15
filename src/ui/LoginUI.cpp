@@ -21,6 +21,13 @@ void LoginUI::welcomeUI() {
 
         cout << "*****************" << endl;
         cout << "*Pizzawesomeness*" << endl;
+        cout << "*****************" << endl;
+        cout << "*****************" << endl;
+        cout << "*Bjoggis special*" << endl;
+        cout << "3 x thistilhjortu" << endl;
+        cout << "***Only 2000kr***" << endl;
+        cout << "Batcave exclusive" << endl;
+        cout << "****Afram HK*****" << endl;
         cout << "*****************" << endl << endl;
 
         cout << "Alpha - Manager" << endl;
@@ -34,7 +41,7 @@ void LoginUI::welcomeUI() {
         checkInputZero(input);
         cout << endl;
         }
-    }
+}
 void LoginUI::checkInputZero(string input) {
     if(input == "alpha" || input == "Alpha" || input == "Manager" || input == "manager" ||
        input == "Vidar" || input == "vidar" || input == "Ogri" || input == "ogri" || input == "Bjossi" || input == "bjossi"){
@@ -87,6 +94,11 @@ void LoginUI::checkInput(string input) {
     }
     else if(input == "4"){
         cout << "Select the following characters for corresponding actions:" << endl;
+        cout << "**********************************************************" << endl;
+        cout << "[1] ----------------- Mark as Paid" << endl;
+        cout << "[2] ----------------- Mark as In Progress" << endl;
+        cout << "[3] ----------------- Mark as Ready" << endl;
+        cout << "[4] ----------------- Mark as Delivered" << endl;
 
         pizzaStatusService.setPizzaStatus();
     }
@@ -119,9 +131,9 @@ void LoginUI::checkInput(string input) {
 }
 
 void LoginUI::salesUI() {
-            while(true){
+    while(true){
         cout << endl << "Operator Tasks!" << endl << "Please choose a task." << endl << "*********************" << endl << endl;
-        cout << "1: Make order" << endl << "2: Get price" << endl << "3: Delivery or pickup" << endl << "4: Notes" << endl << "Q: Quit to menu" << endl << endl;
+        cout << "1: Make order" << endl << "Q: Quit to menu" << endl << endl;
         string input;
         cin >> input;
         checkInputTwo(input);
@@ -129,12 +141,8 @@ void LoginUI::salesUI() {
 }
 
 void LoginUI::checkInputTwo(string input) {
-if(input == "1" || input == "2" || input == "3" || input == "4"){
-                                cout << endl;
-                                cout << "This function is unavailable ATM." << endl;
-                                LoginUI salesMenu;
-                                salesMenu.salesUI();
-                                cout << endl;
+    if(input == "1" || input == "2" || input == "3" || input == "4"){
+        pizzaOrderService.makePizzaOrder();
     }
     else if(input == "Q" || input == "q"){
                 LoginUI welcomeMenu;
@@ -147,9 +155,9 @@ if(input == "1" || input == "2" || input == "3" || input == "4"){
 }
 
 void LoginUI::bakerUI() {
-         while(true){
+    while(true){
         cout << endl << "Baker Tasks!" << endl << "Please choose a task." << endl << "*********************" << endl << endl;
-        cout << "1: Pizza queue" << endl << "2: List of ordered pizza's" << endl << "3: Mark as in progress" << endl << "4: Mark as ready" << endl << "Q: Quit to menu" << endl << endl;
+        cout << "1 then 2: Mark as in progress" << endl << "1 then 3: Mark as ready" << endl << "Q: Quit to menu" << endl << endl;
         string input;
         cin >> input;
         checkInputThree(input);
@@ -157,12 +165,8 @@ void LoginUI::bakerUI() {
 }
 
 void LoginUI::checkInputThree(string input) {
-    if(input == "1" || input == "2" || input == "3" || input == "4"){
-                                cout << endl;
-                                cout << "This function is unavailable ATM." << endl;
-                                LoginUI bakerMenu;
-                                bakerMenu.bakerUI();
-                                cout << endl;
+    if(input == "1"){
+        pizzaStatusService.setPizzaStatus();
     }
     else if(input == "Q" || input == "q"){
                 LoginUI welcomeMenu;
@@ -177,8 +181,7 @@ void LoginUI::checkInputThree(string input) {
 void LoginUI::deliveryUI() {
          while(true){
         cout << endl << "Delivery Tasks!" << endl << "Please choose a task." << endl << "*********************" << endl << endl;
-        cout << "1: Select outlet" << endl << "2: List of ordered pizza's" << endl << "3: List of ready pizza's" << endl << "4: Search orders" << endl
-        << "5: Mark order as payed" << endl << "6: Mark order as finished" << endl << "Q: Quit to menu" << endl << endl;
+        cout << "1 then 1: Mark order as payed" << endl << "1 then 4: Mark order as delivered" << endl << "Q: Quit to menu" << endl << endl;
         cin >> input;
         checkInputFour(input);
     }
@@ -186,18 +189,7 @@ void LoginUI::deliveryUI() {
 
 void LoginUI::checkInputFour(string input) {
     if(input == "1"){
-                                cout << endl;
-                                cout << "This function is unavailable ATM." << endl;
-                                LoginUI deliveryMenu;
-                                deliveryMenu.deliveryUI();
-                                cout << endl;
-    }
-    else if(input == "2" || input == "3" || input == "4" || input == "5" || input == "6"){
-                                cout << endl;
-                                cout << "This function is unavailable ATM." << endl;
-                                LoginUI deliveryMenu;
-                                deliveryMenu.deliveryUI();
-                                cout << endl;
+        pizzaStatusService.setPizzaStatus();
     }
     else if(input == "Q" || input == "q"){
                 LoginUI welcomeMenu;

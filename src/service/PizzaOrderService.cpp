@@ -33,8 +33,10 @@ void PizzaOrderService::makePizzaOrder(){
         int pizzaCnt;
         cout << "How many pizzas: ";
         cin >> pizzaCnt;
+        total = total * pizzaCnt;
         cout << endl;
         PizzaOrder pizzaOrder(pizzaCnt);
+        pizzaOrderRepo.storePizzaOrder(pizzaCnt, staerd, topping, total);/*
             ofstream fout;
             fout.open("pizzaorders.txt");
             fout << "This order has " << pizzaCnt << " pizza(s)." << endl;
@@ -55,10 +57,10 @@ void PizzaOrderService::makePizzaOrder(){
             }
             fout << "Order total is: " << total << " kr." << endl;
             fout.close();
-        }
-        cout << endl << "Order total is: " << total << " kr." << endl;
-        PizzaOrderRepo pizzaOrderRepo;
-        pizzaOrderRepo.storePizzaOrder(pizzaOrder);
+        }*/
+
+       /* PizzaOrderRepo pizzaOrderRepo;
+        pizzaOrderRepo.storePizzaOrder(pizzaOrder);*/
     }
     else if(input == "r" || input == "R") {
         PizzaOrderRepo repo;

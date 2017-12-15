@@ -29,7 +29,7 @@ class PizzaOrder
         virtual ~PizzaOrder();
     private:
         char status;
-        bool paid;
+        char paid;
         Pizza *pizzas;
         int pizzaCount;
         int currentPizzaNum;

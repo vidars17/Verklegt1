@@ -15,12 +15,29 @@ void PizzaOrderRepo::retrievePizzaOrder() {
     }
     fin.close();
 }
-void PizzaOrderRepo::storePizzaOrder(const PizzaOrder& pizzaOrder) {
+void PizzaOrderRepo::storePizzaOrder(int pizzaCnt, char staerd, string topping, int total) {
     ofstream fout;
     fout.open("pizzaorders.txt");
-    // fout << pizzaOrder << endl;
-    fout.close();
+    fout << "This order has " << pizzaCnt << " pizza(s)." << endl;
+    fout << "Size: " << staerd << endl;
+    for (int i = 0; i < pizzaCnt; i++) {
+        cout << "How many toppings: ";
+        int numberoftoppings;
+        cin >> numberoftoppings;
+        cout << endl;
+        for (int j = 0; j < numberoftoppings; j++){
+            fout << "With " << numberoftoppings << " topping(s)." << endl;
+            pizza2.readTopping(); cout << endl;
+            cout << "Topping: ";
+            cin >> topping;
+            total = total + searchPrice(topping);
+            fout << "With " << parseTopp(topping) << endl;
+        }
+        fout << "Order total is: " << total << " kr." << endl;
 
+        fout.close();
+    }
+    cout << endl << "Order total is: " << total << " kr." << endl;
 }
 
 
@@ -36,17 +53,17 @@ int PizzaOrderRepo::searchPrice(string topping) {
     ifstream fin;
     fin.open("ToppingsList.txt");
         if(fin.is_open()) {
-    string search = topping;
-    bool found = false;
-    while(!fin.eof() && !found) {
-    string line;
-    getline(fin, line);
-    if(line.find(search) != string::npos) {
-        found = true;
-        total = total + parseToppings(line);
-        }
-    }
-    fin.close();
+            string search = topping;
+            bool found = false;
+            while(!fin.eof() && !found) {
+                string line;
+                getline(fin, line);
+                if(line.find(search) != string::npos) {
+                    found = true;
+                    total = total + parseToppings(line);
+                }
+            }
+        fin.close();
         }
     return total;
 }
