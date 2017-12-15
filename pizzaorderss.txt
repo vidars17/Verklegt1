@@ -1,0 +1,5 @@
+This order has 2 pizza(s).
+Size: S
+With 1 topping(s)
+With Mozzarella
+Order total is: 2050 kr.

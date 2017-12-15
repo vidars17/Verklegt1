@@ -34,6 +34,8 @@ void PizzaOrderRepo::setPizzaStatus(string status) {
 int PizzaOrderRepo::searchPrice(string topping) {
     int total = 0;
     ifstream fin;
+    fin.open("ToppingsList.txt");
+        if(fin.is_open()) {
     string search = topping;
     bool found = false;
     while(!fin.eof() && !found) {
@@ -45,6 +47,7 @@ int PizzaOrderRepo::searchPrice(string topping) {
         }
     }
     fin.close();
+        }
     return total;
 }
 
@@ -57,3 +60,22 @@ int PizzaOrderRepo::parseToppings(string line) {
     totalltvo = atoi(totalleitt.c_str());
     return totalltvo;
 }
+
+string PizzaOrderRepo::parseTopp(string topping) {
+    string line;
+    ifstream fin;
+    fin.open("ToppingsList.txt");
+    if(fin.is_open()) {
+    string search = topping;
+    bool found = false;
+    while(!fin.eof() && !found) {
+    string line;
+    getline(fin, line);
+    if(line.find(search) != string::npos) {
+        found = true;
+        int index = line.find(',');
+        string alegg = line.substr(0, index);
+        return alegg;
+        }
+}
+    }return 0;}

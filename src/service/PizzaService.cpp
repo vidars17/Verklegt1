@@ -38,19 +38,3 @@ void PizzaService::makePizza(){
                 }break;
     }
 }
-
-bool Topping::isValidNoNumber(const Topping& topping) {  /// Spurning um að nota exceptions?
-    string name = topping.getName();
-
-    for(unsigned int i = 0; i < name.length(); i++) {
-        if (isdigit(name[i]))
-            throw isValidNoNumberException();
-            }
-             return true;
-    }
-bool Topping::isValidNumber(const Topping& topping) {
-    if (topping.getPrice() < 0 || topping.getPrice() > 3500000) {
-            throw isValidNumberException();
-            }
-             return true;
-}

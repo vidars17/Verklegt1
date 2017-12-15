@@ -14,6 +14,7 @@ class PizzaOrderRepo
         void setPizzaStatus(string status);
         int parseToppings(string line);
         int searchPrice(string topping);
+        string parseTopp(string line);
     private:
 };
 

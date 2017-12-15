@@ -33,5 +33,5 @@ void PizzaStatusService::getPizzaStatus() {
     pizzaOrderRepo.retrievePizzaOrder();
 }
 
-///Hér ætti hugsanlega að kalla í set fallið og retrieve í leiðinni og síðan store order.
-///setja upp switch case sem branch-ar í mark as föll
+///Hï¿½r ï¿½tti hugsanlega aï¿½ kalla ï¿½ set falliï¿½ og retrieve ï¿½ leiï¿½inni og sï¿½ï¿½an store order.
+///setja upp switch case sem branch-ar ï¿½ mark as fï¿½ll

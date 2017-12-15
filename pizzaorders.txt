@@ -2,6 +2,6 @@ Order with 1 pizzas:
 
 Pizza with 0 toppings: 
  
-Recieved.
+Delivered.
 Order has been paid.
 
