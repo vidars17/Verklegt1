@@ -86,7 +86,11 @@ void LoginUI::checkInput(string input) {
         pizzaOrderService.makePizzaOrder();
     }
     else if(input == "4"){
-
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI alphaMenu;
+                                alphaMenu.AlphaLoginUI();
+                                cout << endl;
     }
     else if(input == "5"){
        ifstream fin("pizzaorders.txt");
@@ -103,13 +107,25 @@ void LoginUI::checkInput(string input) {
 
     }
     else if(input == "6"){
-
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI alphaMenu;
+                                alphaMenu.AlphaLoginUI();
+                                cout << endl;
     }
     else if(input == "7"){
-
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI alphaMenu;
+                                alphaMenu.AlphaLoginUI();
+                                cout << endl;
     }
     else if(input == "8"){
-
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI alphaMenu;
+                                alphaMenu.AlphaLoginUI();
+                                cout << endl;
     }
     else if(input == "9"){
                 cout << endl << endl << endl;
@@ -147,14 +163,32 @@ void LoginUI::salesUI() {
 
 void LoginUI::checkInputTwo(string input) {
     if(input == "1"){
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI salesMenu;
+                                salesMenu.salesUI();
+                                cout << endl;
     }
     else if(input == "2"){
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI salesMenu;
+                                salesMenu.salesUI();
+                                cout << endl;
     }
     else if(input == "3"){
-
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI salesMenu;
+                                salesMenu.salesUI();
+                                cout << endl;
     }
     else if(input == "4"){
-
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI salesMenu;
+                                salesMenu.salesUI();
+                                cout << endl;
     }
     else if(input == "Q" || input == "q"){
                 LoginUI welcomeMenu;
@@ -178,13 +212,33 @@ void LoginUI::bakerUI() {
 
 void LoginUI::checkInputThree(string input) {
     if(input == "1"){
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI bakerMenu;
+                                bakerMenu.bakerUI();
+                                cout << endl;
     }
     else if(input == "2"){
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI bakerMenu;
+                                bakerMenu.bakerUI();
+                                cout << endl;
     }
     else if(input == "3"){
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI bakerMenu;
+                                bakerMenu.bakerUI();
+                                cout << endl;
 
     }
     else if(input == "4"){
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI bakerMenu;
+                                bakerMenu.bakerUI();
+                                cout << endl;
 
     }
     else if(input == "Q" || input == "q"){
@@ -209,19 +263,50 @@ void LoginUI::deliveryUI() {
 
 void LoginUI::checkInputFour(string input) {
     if(input == "1"){
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI deliveryMenu;
+                                deliveryMenu.deliveryUI();
+                                cout << endl;
     }
     else if(input == "2"){
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI deliveryMenu;
+                                deliveryMenu.deliveryUI();
+                                cout << endl;
+
     }
     else if(input == "3"){
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI deliveryMenu;
+                                deliveryMenu.deliveryUI();
+                                cout << endl;
 
     }
     else if(input == "4"){
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI deliveryMenu;
+                                deliveryMenu.deliveryUI();
+                                cout << endl;
 
     }
     else if(input == "5"){
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI deliveryMenu;
+                                deliveryMenu.deliveryUI();
+                                cout << endl;
 
     }
     else if(input == "6"){
+                                cout << endl;
+                                cout << "This function is unavailable ATM." << endl;
+                                LoginUI deliveryMenu;
+                                deliveryMenu.deliveryUI();
+                                cout << endl;
 
     }
     else if(input == "Q" || input == "q"){
