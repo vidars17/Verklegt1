@@ -52,6 +52,7 @@
 		<Unit filename="include/repo/ToppingRepo.h" />
 		<Unit filename="include/service/PizzaOrderService.h" />
 		<Unit filename="include/service/PizzaService.h" />
+		<Unit filename="include/service/PizzaStatusService.h" />
 		<Unit filename="include/service/ToppingService.h" />
 		<Unit filename="include/ui/LoginUI.h" />
 		<Unit filename="main.cpp" />
@@ -65,6 +66,7 @@
 		<Unit filename="src/repo/ToppingRepo.cpp" />
 		<Unit filename="src/service/PizzaOrderService.cpp" />
 		<Unit filename="src/service/PizzaService.cpp" />
+		<Unit filename="src/service/PizzaStatusService.cpp" />
 		<Unit filename="src/service/ToppingService.cpp" />
 		<Unit filename="src/ui/LoginUI.cpp" />
 		<Extensions>
