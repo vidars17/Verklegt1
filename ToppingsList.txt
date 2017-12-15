@@ -1,5 +1,13 @@
 Pepperoni, 200
-2, 2
-Ananas, 2000
+Ananas, 100
 Sveppir, 100
-Banani, 50
+Banani, 100
+Beikon, 200
+Hakk, 200
+Tomatar, 100
+Skinka, 100
+Kjuklingur, 200
+Mozzarella, 50
+Piparostur, 50
+Rjomaostur, 50
+BBQsosa, 50

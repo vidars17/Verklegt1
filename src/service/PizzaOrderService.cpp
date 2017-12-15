@@ -1,38 +1,64 @@
 #include "PizzaOrderService.h"
+#include <string>
+#include "PizzaRepo.h"
+#include "ToppingRepo.h"
 
 void PizzaOrderService::makePizzaOrder(){
-    char task = '\0';
+    string input;
     cout << "M: Make order" << endl;
     cout << "R: Read order" << endl;
-    cin >> task;
-    switch(task){
-		case 'm':
-        case 'M':{
-            int pizzaCnt;
-            cout << "How many pizzas: ";
-            cin >> pizzaCnt;
-            cout << endl;
-			PizzaOrder pizzaOrder(pizzaCnt);
-				for (int i = 0; i < pizzaCnt; i++) {
-				Pizza pizza;
-				ToppingRepo pizza2;
-				pizza2.readTopping();
-				cout << "How many toppings: ";
-				cin >> pizza;
-				pizzaOrder.addPizza(pizza);
-				}
-			cout << pizzaOrder;
-			PizzaOrderRepo pizzaOrderRepo;
-			pizzaOrderRepo.storePizzaOrder(pizzaOrder);
-			cout << endl;
-			}break;
+    cin >> input;
+    if(input == "m" ||input == "M"){
+        char staerd = '\0';
+        cout << "Price for pizzas: " << endl;
+        cout << "Small  =  1000" << endl;
+        cout << "Medium =  1500" << endl;
+        cout << "Large  =  2000" << endl << endl;
+        cout << "Choose between (S)mall, (M)edium or (L)arge pizza. ";
+        cin >> staerd;
+        cout << endl;
+        int total = 0;
 
-            case 'r':
-            case 'R':{
-                PizzaOrderRepo repo;
-                repo.retrievePizzaOrder();
-                ///cout << pizza;
+        if(staerd == 's' || staerd == 'S'){
+            total = 1000;
+        }
+        else if(staerd == 'm' || staerd == 'M'){
+            total = 1500;
+        }
+        else if(staerd == 'l' || staerd == 'L'){
+            total = 2000;
+        }
+
+        string topping;
+        int pizzaCnt;
+        cout << "How many pizzas: ";
+        cin >> pizzaCnt;
+        cout << endl;
+        PizzaOrder pizzaOrder(pizzaCnt);
+        for (int i = 0; i < pizzaCnt; i++) {
+                cout << "How many toppings: ";
+                int numberoftoppings;
+                cin >> numberoftoppings;
                 cout << endl;
-                }break;
+            for (int j = 0; j < numberoftoppings; j++){
+                ToppingRepo pizza2;
+                pizza2.readTopping(); cout << endl;
+                cout << "Topping: ";
+                cin >> topping;
+                total = total + pizzaOrderRepo.searchPrice(topping);
+                cout << total << endl;
+
+            }
+            cout << pizzaOrder << endl;
+        }
+        cout << endl << "Order total is: " << total << " kr." << endl;
+        PizzaOrderRepo pizzaOrderRepo;
+        pizzaOrderRepo.storePizzaOrder(pizzaOrder);
+    }
+    else if(input == "r" || input == "R") {
+        PizzaOrderRepo repo;
+        repo.retrievePizzaOrder();
+        ///cout << pizza;
+        cout << endl;
     }
 }

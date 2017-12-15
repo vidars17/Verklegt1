@@ -1,0 +1,10 @@
+#ifndef ISVALIDNUMBEREXCEPTION_H
+#define ISVALIDNUMBEREXCEPTION_H
+
+
+class isValidNumberException
+{
+
+};
+
+#endif // ISVALIDNUMBEREXCEPTION_H

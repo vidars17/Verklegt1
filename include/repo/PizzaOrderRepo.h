@@ -2,6 +2,7 @@
 #define PIZZAORDERREPO_H
 #include "PizzaOrder.h"
 #include <fstream>
+#include <cstdlib>
 
 
 
@@ -11,6 +12,8 @@ class PizzaOrderRepo
         void retrievePizzaOrder();
         void storePizzaOrder(const PizzaOrder& pizzaOrder);
         void setPizzaStatus(string status);
+        int parseToppings(string line);
+        int searchPrice(string topping);
     private:
 };
 

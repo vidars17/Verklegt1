@@ -18,6 +18,8 @@ class Topping
     private:
         string name;
         int price;
+        bool isValidNoNumber(const Topping& topping);
+        bool isValidNumber(const Topping& topping);
 
 };
 

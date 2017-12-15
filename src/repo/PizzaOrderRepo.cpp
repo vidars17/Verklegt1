@@ -30,3 +30,30 @@ void PizzaOrderRepo::setPizzaStatus(string status) {
     fout << status << endl;
     fout.close();
 }
+
+int PizzaOrderRepo::searchPrice(string topping) {
+    int total = 0;
+    ifstream fin;
+    string search = topping;
+    bool found = false;
+    while(!fin.eof() && !found) {
+    string line;
+    getline(fin, line);
+    if(line.find(search) != string::npos) {
+        found = true;
+        total = total + parseToppings(line);
+        }
+    }
+    fin.close();
+    return total;
+}
+
+
+int PizzaOrderRepo::parseToppings(string line) {
+    int totalltvo = 0;
+    int index = line.find(',');
+    int indexOfSecond = line.find(',', index+1);
+    string totalleitt = line.substr(index+1, (indexOfSecond-1) - index);
+    totalltvo = atoi(totalleitt.c_str());
+    return totalltvo;
+}

@@ -57,10 +57,11 @@
 	<iostream>
 	"LoginUI.h"
 
-1513277095 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\ui\loginui.h
+1513337674 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\ui\loginui.h
 	<iostream>
 	<string>
 	<cstdlib>
+	"MenuService.h"
 	"ToppingService.h"
 	"PizzaService.h"
 	"PizzaOrderService.h"
@@ -85,7 +86,20 @@
 1513177894 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\toppingservice.cpp
 	"ToppingService.h"
 
-1513334348 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\loginui.cpp
+1513266104 D
+
+1513336652 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\loginui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"LoginUI.h"
+	"Pizza.h"
+	"AlphaLoginUI.h"
+	"Topping.h"
+	"PizzaService.h"
+	"PizzaOrder.h"
+
+1513278424 9a2aef9d798dd93c260c42eb4ee1b9a120c98
 	<iostream>
 	<string>
 	<fstream>
@@ -100,7 +114,7 @@
 	<iostream>
 	"Topping.h"
 
-1513268096 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
+1513336369 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizza.cpp
 	"Pizza.h"
 
 1513184128 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\ui\alphaloginui.cpp
@@ -169,7 +183,7 @@
 	"Topping.h"
 	<strings.h>
 
-1513265180 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\topping.h
+1513336369 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\topping.h
 	<iostream>
 
 1513178135 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\toppingrepo.cpp
@@ -182,7 +196,7 @@
 	<string>
 	"Topping.h"
 
-1513251320 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\pizzaservice.h
+1513336369 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\pizzaservice.h
 	<iostream>
 	<string>
 	"Pizza.h"
@@ -198,13 +212,16 @@
 1513179963 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\pizzarepo.cpp
 	"PizzaRepo.h"
 
-1513266402 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzaservice.cpp
+1513336369 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzaservice.cpp
 	"PizzaService.h"
+	"Topping.h"
+	"isValidNoNumberException.h"
+	"isValidNumberException.h"
 
-1513275006 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizzaorder.cpp
+1513337587 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\model\pizzaorder.cpp
 	"PizzaOrder.h"
 
-1513274955 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizzaorder.h
+1513337587 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\model\pizzaorder.h
 	"Pizza.h"
 	<iostream>
 	<string>
@@ -326,104 +343,113 @@
 	"PizzaOrder.h"
 	"PizzaOrderRepo.h"
 
-1513183553 source:c:\users\Ögri\documents\github\verklegt1copy\main.cpp
+1513239122 source:c:\users\Ögri\documents\github\verklegt1copy\main.cpp
 	<iostream>
 	"LoginUI.h"
 
-1513188312 c:\users\Ögri\documents\github\verklegt1copy\include\ui\loginui.h
+1513274278 c:\users\Ögri\documents\github\verklegt1copy\include\ui\loginui.h
 	<iostream>
 	<string>
 	<cstdlib>
 	"MenuService.h"
 	"ToppingService.h"
 	"PizzaService.h"
+	"PizzaOrderService.h"
 
-1513157198 c:\users\Ögri\documents\github\verklegt1copy\include\service\menuservice.h
+1513239122 c:\users\Ögri\documents\github\verklegt1copy\include\service\menuservice.h
 	<iostream>
 	<string>
 	"PizzaMenuRepo.h"
 
-1513157198 c:\users\Ögri\documents\github\verklegt1copy\include\repo\pizzamenurepo.h
+1513239122 c:\users\Ögri\documents\github\verklegt1copy\include\repo\pizzamenurepo.h
 	<iostream>
 	<fstream>
 	"Pizza.h"
 
-1513157198 c:\users\Ögri\documents\github\verklegt1copy\include\model\pizza.h
-	<string>
+1513239122 c:\users\Ögri\documents\github\verklegt1copy\include\model\pizza.h
 	<iostream>
 	"Topping.h"
 
-1513157198 c:\users\Ögri\documents\github\verklegt1copy\include\model\topping.h
+1513279007 c:\users\Ögri\documents\github\verklegt1copy\include\model\topping.h
 	<iostream>
 
-1513157198 c:\users\Ögri\documents\github\verklegt1copy\include\service\toppingservice.h
+1513239122 c:\users\Ögri\documents\github\verklegt1copy\include\service\toppingservice.h
 	"ToppingRepo.h"
 
-1513157198 c:\users\Ögri\documents\github\verklegt1copy\include\repo\toppingrepo.h
+1513239122 c:\users\Ögri\documents\github\verklegt1copy\include\repo\toppingrepo.h
 	<iostream>
 	<fstream>
 	<string>
 	"Topping.h"
 
-1513157198 c:\users\Ögri\documents\github\verklegt1copy\include\service\pizzaservice.h
+1513278783 c:\users\Ögri\documents\github\verklegt1copy\include\service\pizzaservice.h
 	<iostream>
 	<string>
-	<fstream>
 	"Pizza.h"
 	"PizzaRepo.h"
+	"ToppingRepo.h"
 
-1513157198 c:\users\Ögri\documents\github\verklegt1copy\include\repo\pizzarepo.h
+1513239122 c:\users\Ögri\documents\github\verklegt1copy\include\repo\pizzarepo.h
 	"Pizza.h"
 	<iostream>
 	<fstream>
 	<string>
 
-1513157198 source:c:\users\Ögri\documents\github\verklegt1copy\src\model\pizza.cpp
+1513239122 source:c:\users\Ögri\documents\github\verklegt1copy\src\model\pizza.cpp
 	"Pizza.h"
 
-1513157198 source:c:\users\Ögri\documents\github\verklegt1copy\src\model\pizzaorder.cpp
+1513268592 source:c:\users\Ögri\documents\github\verklegt1copy\src\model\pizzaorder.cpp
 	"PizzaOrder.h"
 
-1513157198 c:\users\Ögri\documents\github\verklegt1copy\include\model\pizzaorder.h
+1513239122 c:\users\Ögri\documents\github\verklegt1copy\include\model\pizzaorder.h
 	"Pizza.h"
 	<iostream>
 	<string>
 
-1513157198 source:c:\users\Ögri\documents\github\verklegt1copy\src\model\topping.cpp
+1513239122 source:c:\users\Ögri\documents\github\verklegt1copy\src\model\topping.cpp
 	"Topping.h"
 	<strings.h>
 
-1513187759 source:c:\users\Ögri\documents\github\verklegt1copy\src\repo\pizzaorderrepo.cpp
+1513239122 source:c:\users\Ögri\documents\github\verklegt1copy\src\repo\pizzaorderrepo.cpp
 	"PizzaOrderRepo.h"
 
-1513187759 c:\users\Ögri\documents\github\verklegt1copy\include\repo\pizzaorderrepo.h
+1513239122 c:\users\Ögri\documents\github\verklegt1copy\include\repo\pizzaorderrepo.h
 	"PizzaOrder.h"
 	<fstream>
 
-1513157198 source:c:\users\Ögri\documents\github\verklegt1copy\src\repo\pizzarepo.cpp
+1513239122 source:c:\users\Ögri\documents\github\verklegt1copy\src\repo\pizzarepo.cpp
 	"PizzaRepo.h"
 
-1513157198 source:c:\users\Ögri\documents\github\verklegt1copy\src\repo\toppingrepo.cpp
+1513239122 source:c:\users\Ögri\documents\github\verklegt1copy\src\repo\toppingrepo.cpp
 	"ToppingRepo.h"
 	<string>
 
-1513157198 source:c:\users\Ögri\documents\github\verklegt1copy\src\service\pizzaorderservice.cpp
+1513277096 source:c:\users\Ögri\documents\github\verklegt1copy\src\service\pizzaorderservice.cpp
 	"PizzaOrderService.h"
+	<string>
+	<fstream>
+	<cstdlib>
+	"PizzaRepo.h"
+	"ToppingRepo.h"
 
-1513157198 c:\users\Ögri\documents\github\verklegt1copy\include\service\pizzaorderservice.h
+1513269904 c:\users\Ögri\documents\github\verklegt1copy\include\service\pizzaorderservice.h
 	"PizzaOrder.h"
+	"ToppingRepo.h"
 	"PizzaOrderRepo.h"
 
-1513157198 source:c:\users\Ögri\documents\github\verklegt1copy\src\service\pizzaservice.cpp
+1513279159 source:c:\users\Ögri\documents\github\verklegt1copy\src\service\pizzaservice.cpp
 	"PizzaService.h"
+	"Topping.h"
+	"isValidNoNumberException.h"
+	"isValidNumberException.h"
 
-1513157198 source:c:\users\Ögri\documents\github\verklegt1copy\src\service\toppingservice.cpp
+1513239122 source:c:\users\Ögri\documents\github\verklegt1copy\src\service\toppingservice.cpp
 	"ToppingService.h"
 
 1513186526 source:c:\users\Ögri\documents\github\verklegt1copy\src\ui\alphaloginui.cpp
 	"AlphaLoginUI.h"
 
-1513188731 c:\users\Ögri\documents\github\verklegt1copy\include\ui\alphaloginui.h
+1513239122 c:\users\Ögri\documents\github\verklegt1copy\include\ui\alphaloginui.h
 	<iostream>
 	<string>
 	<cstdlib>
@@ -431,7 +457,7 @@
 	"ToppingService.h"
 	"PizzaService.h"
 
-1513188600 source:c:\users\Ögri\documents\github\verklegt1copy\src\ui\loginui.cpp
+1513279694 source:c:\users\Ögri\documents\github\verklegt1copy\src\ui\loginui.cpp
 	<iostream>
 	<string>
 	<fstream>
@@ -442,24 +468,52 @@
 	"PizzaService.h"
 	"PizzaOrder.h"
 
-1513335746 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\pizzaorderrepo.cpp
+1513339339 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\repo\pizzaorderrepo.cpp
 	"PizzaOrderRepo.h"
 
-1513335067 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\repo\pizzaorderrepo.h
+1513339380 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\repo\pizzaorderrepo.h
 	"PizzaOrder.h"
 	<fstream>
+	<cstdlib>
 
-1513266398 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzaorderservice.cpp
+1513339208 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzaorderservice.cpp
 	"PizzaOrderService.h"
+	<string>
+	<fstream>
+	<cstdlib>
+	"PizzaRepo.h"
+	"ToppingRepo.h"
 
-1513266104 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\pizzaorderservice.h
+1513339208 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\pizzaorderservice.h
 	"PizzaOrder.h"
 	"ToppingRepo.h"
 	"PizzaOrderRepo.h"
 
-1513335974 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzastatusservice.cpp
+1513337418 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\service\pizzastatusservice.cpp
 	"PizzaStatusService.h"
 
-1513335974 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\pizzastatusservice.h
+1513337418 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\service\pizzastatusservice.h
 	"PizzaOrderRepo.h"
+
+1513335974 rRepo.h"
+
+1513278424 source:c:\users\Ögri\documents\github\verklegt1copy\src\exceptions\isvalidnonumberexception.cpp
+	"isValidNoNumberException.h"
+
+1513278424 c:\users\Ögri\documents\github\verklegt1copy\include\exceptions\isvalidnonumberexception.h
+
+1513278424 source:c:\users\Ögri\documents\github\verklegt1copy\src\exceptions\isvalidnumberexception.cpp
+	"isValidNumberException.h"
+
+1513278424 c:\users\Ögri\documents\github\verklegt1copy\include\exceptions\isvalidnumberexception.h
+
+1513336369 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\exceptions\isvalidnonumberexception.cpp
+	"isValidNoNumberException.h"
+
+1513336369 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\exceptions\isvalidnonumberexception.h
+
+1513336369 source:c:\users\viðar\favorites\desktop\mainassign\verklegt1\src\exceptions\isvalidnumberexception.cpp
+	"isValidNumberException.h"
+
+1513336369 c:\users\viðar\favorites\desktop\mainassign\verklegt1\include\exceptions\isvalidnumberexception.h
 

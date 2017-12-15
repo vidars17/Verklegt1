@@ -9,8 +9,9 @@ class PizzaOrderService
 {
     public:
         void makePizzaOrder();
-
+        int parseToppings(string line);
     private:
+        PizzaOrderRepo pizzaOrderRepo;
 };
 
 #endif // PIZZAORDERSERVICE_H

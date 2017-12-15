@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
-
+#include "MenuService.h"
 #include "ToppingService.h"
 #include "PizzaService.h"
 #include "PizzaOrderService.h"
@@ -30,6 +30,7 @@ class LoginUI
         void checkInputThree(string input);
         void checkInputFour(string input);
         void checkInputZero(string input);
+        void parseString(string line);
 
     private:
         string input;
@@ -42,7 +43,6 @@ class LoginUI
         ToppingService toppingService;
         PizzaService pizzaService;
         PizzaOrderService pizzaOrderService;
-        PizzaOrder pizzaOrder;
         PizzaStatusService pizzaStatusService;
 
 };

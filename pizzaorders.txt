@@ -1,13 +1,7 @@
 Order with 1 pizzas: 
 
-Pizza with 2 toppings: 
-Sveppir, 100
- 
-Banani, 100
- 
+Pizza with 0 toppings: 
  
 Recieved.
-Order has not been paid.
-
 Order has been paid.
-In progress.
+
