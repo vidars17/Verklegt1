@@ -35,21 +35,26 @@ void PizzaOrderService::makePizzaOrder(){
         cin >> pizzaCnt;
         cout << endl;
         PizzaOrder pizzaOrder(pizzaCnt);
+            ofstream fout;
+            fout.open("pizzaorders.txt");
+            fout << "This order has " << pizzaCnt << "pizza(s)." << endl;
+            fout << "Size: " << staerd << endl;
         for (int i = 0; i < pizzaCnt; i++) {
                 cout << "How many toppings: ";
                 int numberoftoppings;
                 cin >> numberoftoppings;
                 cout << endl;
             for (int j = 0; j < numberoftoppings; j++){
+                fout << "With " << numberoftoppings << " topping(s)." << endl;
                 ToppingRepo pizza2;
                 pizza2.readTopping(); cout << endl;
                 cout << "Topping: ";
                 cin >> topping;
                 total = total + pizzaOrderRepo.searchPrice(topping);
-                cout << total << endl;
-
+                fout << "With " << pizzaOrderRepo.parseTopp(topping) << endl;
             }
-            cout << pizzaOrder << endl;
+            fout << "Order total is: " << total << " kr." << endl;
+            fout.close();
         }
         cout << endl << "Order total is: " << total << " kr." << endl;
         PizzaOrderRepo pizzaOrderRepo;
