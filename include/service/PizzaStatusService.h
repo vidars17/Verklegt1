@@ -5,10 +5,11 @@
 class PizzaStatusService
 {
     public:
-        void setPizzaStatus(PizzaOrder& pizzaOrder);
-
+        void setPizzaStatus();
+        void getPizzaStatus();
     private:
         PizzaOrderRepo pizzaOrderRepo;
+        PizzaOrder pizzaOrder;
 };
 
 #endif // PIZZASTATUSSERVICE_H

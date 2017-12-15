@@ -67,8 +67,8 @@ void LoginUI::AlphaLoginUI() {
         while(true){
         cout << endl << "Welcome to Alpha Beast mode!!" << endl << "Please choose a task." << endl << "*********************" << endl << endl;
         cout << "1: Add pizza" << endl << "2: Add toppings and prices" << endl;
-        cout << "3: Add order" << endl << "4: Mark paid" << endl << "5: Get a pizza order" << endl;
-        cout << "6: Mark in-progress" << endl << "7: Mark ready" << endl << "8: Mark delivered" << endl << "9: Mark hi" << endl << "Q: Quit to menu" << endl;
+        cout << "3: Add order" << endl << "4: Mark status" << endl << "5: Get a pizza order" << endl;
+        cout << "9: Mark hi" << endl << "Q: Quit to menu" << endl;
         string input;
         cin >> input;
         checkInput(input);
@@ -86,25 +86,14 @@ void LoginUI::checkInput(string input) {
         pizzaOrderService.makePizzaOrder();
     }
     else if(input == "4"){
-        pizzaOrder.setPaid();
-        pizzaStatusService.setPizzaStatus(pizzaOrder);
+        cout << "Select the following characters for corresponding actions:" << endl;
+
+        pizzaStatusService.setPizzaStatus();
     }
     else if(input == "5"){
-
+        pizzaStatusService.getPizzaStatus();
     }
     else if(input == "6"){
-        pizzaOrder.setStatusInProgress();
-        pizzaStatusService.setPizzaStatus(pizzaOrder);
-    }
-    else if(input == "7"){
-        pizzaOrder.setStatusReady();
-        pizzaStatusService.setPizzaStatus(pizzaOrder);
-    }
-    else if(input == "8"){
-        pizzaOrder.setStatusDelivered();
-        pizzaStatusService.setPizzaStatus(pizzaOrder);
-    }
-    else if(input == "9"){
         cout << "Oh hi Mark" << endl;
         exit(0);
     }

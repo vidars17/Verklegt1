@@ -10,7 +10,7 @@ class PizzaOrderRepo
     public:
         void retrievePizzaOrder();
         void storePizzaOrder(const PizzaOrder& pizzaOrder);
-
+        void setPizzaStatus(string status);
     private:
 };
 
