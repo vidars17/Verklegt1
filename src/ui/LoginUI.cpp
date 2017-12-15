@@ -68,7 +68,7 @@ void LoginUI::AlphaLoginUI() {
         cout << endl << "Welcome to Alpha Beast mode!!" << endl << "Please choose a task." << endl << "*********************" << endl << endl;
         cout << "1: Add pizza" << endl << "2: Add toppings and prices" << endl;
         cout << "3: Add order" << endl << "4: Mark status" << endl << "5: Get a pizza order" << endl;
-        cout << "9: Mark hi" << endl << "Q: Quit to menu" << endl;
+        cout << "6: Mark hi" << endl << "Q: Quit to menu" << endl;
         string input;
         cin >> input;
         checkInput(input);
